@@ -47,6 +47,16 @@ last_updated: 2026-05-03
 | `wiki/_archive/` | 暂停或否定 idea 的中间产物归档 |
 | `wiki/synthesis/` | 高价值问答、多轮讨论、阶段综合 |
 
+## Tooling / Skills / Schema
+
+| 路径 | 用途 | 写入原则 |
+| --- | --- | --- |
+| `skills/research-wiki/` | repo-native workflow skill source：query、ingest、synthesis、candidate/HYP、proof/EXP/DEC、maintenance | 操作指南层，不是 compiled research memory |
+| `skills/research-argumentation/` | repo-native argumentation skill source：机制论证、proof 写作、最强反对理由、claim 审计 | 只改善论证质量，不改变证据强度或研究事实 |
+| `schema/` | lifecycle、frontmatter、citation/evidence policy 文档级规范 | 服务 lint 和 workflow 一致性 |
+| `scripts/` | scan、rebuild index、lint、status 等机械辅助脚本 | 不自动创建 HYP、EXP brief、EXP report 或 DEC |
+| `workspace/` | 自动生成 manifests、status/lint reports、cache | 可重建运行时层，不是正式研究结论 |
+
 ## 当前关键页面
 
 - [[wiki/comparisons/merging-control-baselines]]

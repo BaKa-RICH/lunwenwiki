@@ -1,0 +1,25 @@
+{
+  "id": "conv-1777797666671-olfy7ybf5",
+  "providerId": "codex",
+  "title": "Report working directory contents",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777797666673,
+  "updatedAt": 1777798155359,
+  "lastResponseAt": 1777798068419,
+  "sessionId": "019decff-98d0-7ba3-b55a-fe40c4259b92",
+  "providerState": {
+    "threadId": "019decff-98d0-7ba3-b55a-fe40c4259b92",
+    "sessionFilePath": "C:\\Users\\liangyunxuan\\.codex\\sessions\\2026\\05\\03\\rollout-2026-05-03T16-41-07-019decff-98d0-7ba3-b55a-fe40c4259b92.jsonl",
+    "transcriptRootPath": "C:\\Users\\liangyunxuan\\.codex\\sessions"
+  },
+  "usage": {
+    "inputTokens": 55553,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 46976,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 55553,
+    "percentage": 21,
+    "model": "gpt-5.3-codex"
+  }
+}

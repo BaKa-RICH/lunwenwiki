@@ -1,0 +1,1399 @@
+{
+  "pages": [
+    {
+      "path": "wiki/comparisons/merging-control-baselines.md",
+      "type": "comparison",
+      "id": "merging-control-baselines",
+      "title": "Merging Control Baselines",
+      "frontmatter": {
+        "type": "comparison",
+        "last_updated": "2026-04-29",
+        "source_pages": [
+          "wiki/papers/P001-2022-Tang-A-novel-hierarchical-cooperative-merging-control.md",
+          "wiki/papers/P002-2023-Hou-Cooperative-On-Ramp-Merging-Control.md",
+          "wiki/papers/P003-2025-Jing-Hierarchical-Cooperative-Merging-Control.md",
+          "wiki/papers/P004-2025-Wang-Cooperative-Control-CAVs-Merging.md",
+          "wiki/papers/P005-2017-Rios-Torres-Automated-Cooperative-Merging.md",
+          "wiki/papers/P006-2023-Liu-Safety-Critical-and-Flexible-Cooperative-Merging.md",
+          "wiki/papers/P007-2024-Chen-Integrated-Approach-Optimal-Merging.md",
+          "wiki/papers/P008-2025-Zhang-Cooperative-Control-Mixed-Vehicles.md",
+          "wiki/papers/P009-2024-Li-Experimental-assessment-communication-delay.md",
+          "wiki/papers/P0010-2025-Choi-Cooperative-Merging-Mixed-Traffic.md",
+          "wiki/papers/P0011-2022-Jing-Integrated-Longitudinal-Lateral-Merging.md",
+          "wiki/papers/P0012-2022-Zhu-Flow-level-Coordination-Multilane-Merging.md",
+          "wiki/papers/P0014-2025-Yang-Dual-Module-Cooperative-Control-On-Ramp.md",
+          "wiki/papers/P0015-2025-Yang-Cooperative-Control-Heterogeneous-Traffic.md",
+          "wiki/papers/P0016-2025-Wang-Hierarchical-Cooperative-On-Ramp-Merging.md",
+          "wiki/papers/P0018-2025-Liu-Hierarchical-Cooperative-Constrained-Control.md",
+          "wiki/papers/P0020-2024-Muzahid-Optimizing-On-Ramp-Merging-DRL-OCP.md",
+          "wiki/papers/P0021-2024-Li-DCoMA-Dynamic-Coordinative-Merging-Assistant.md",
+          "wiki/papers/P0022-2021-Chen-Hierarchical-Model-Based-Cooperative-Merging.md",
+          "wiki/synthesis/mid-field-synthesis-P001-P0022.md"
+        ],
+        "confidence": "medium"
+      },
+      "links": [
+        "wiki/papers/P001-2022-Tang-A-novel-hierarchical-cooperative-merging-control",
+        "wiki/papers/P0010-2025-Choi-Cooperative-Merging-Mixed-Traffic",
+        "wiki/papers/P0011-2022-Jing-Integrated-Longitudinal-Lateral-Merging",
+        "wiki/papers/P0012-2022-Zhu-Flow-level-Coordination-Multilane-Merging",
+        "wiki/papers/P0014-2025-Yang-Dual-Module-Cooperative-Control-On-Ramp",
+        "wiki/papers/P0015-2025-Yang-Cooperative-Control-Heterogeneous-Traffic",
+        "wiki/papers/P0016-2025-Wang-Hierarchical-Cooperative-On-Ramp-Merging",
+        "wiki/papers/P0018-2025-Liu-Hierarchical-Cooperative-Constrained-Control",
+        "wiki/papers/P002-2023-Hou-Cooperative-On-Ramp-Merging-Control",
+        "wiki/papers/P0020-2024-Muzahid-Optimizing-On-Ramp-Merging-DRL-OCP",
+        "wiki/papers/P0021-2024-Li-DCoMA-Dynamic-Coordinative-Merging-Assistant",
+        "wiki/papers/P0022-2021-Chen-Hierarchical-Model-Based-Cooperative-Merging",
+        "wiki/papers/P003-2025-Jing-Hierarchical-Cooperative-Merging-Control",
+        "wiki/papers/P004-2025-Wang-Cooperative-Control-CAVs-Merging",
+        "wiki/papers/P005-2017-Rios-Torres-Automated-Cooperative-Merging",
+        "wiki/papers/P006-2023-Liu-Safety-Critical-and-Flexible-Cooperative-Merging",
+        "wiki/papers/P007-2024-Chen-Integrated-Approach-Optimal-Merging",
+        "wiki/papers/P008-2025-Zhang-Cooperative-Control-Mixed-Vehicles",
+        "wiki/papers/P009-2024-Li-Experimental-assessment-communication-delay"
+      ]
+    },
+    {
+      "path": "wiki/concepts/calibrated-gap-selection-lane-balance-control.md",
+      "type": "concept",
+      "id": "calibrated-gap-selection-lane-balance-control",
+      "title": "Calibrated Gap Selection and Lane Balance Control",
+      "frontmatter": {
+        "type": "concept",
+        "title": "Calibrated Gap Selection and Lane Balance Control",
+        "status": "active",
+        "confidence": "medium",
+        "source_pages": [
+          "wiki/papers/P0015-2025-Yang-Cooperative-Control-Heterogeneous-Traffic.md"
+        ],
+        "last_updated": "2026-04-29"
+      },
+      "links": [
+        "wiki/papers/P0015-2025-Yang-Cooperative-Control-Heterogeneous-Traffic"
+      ]
+    },
+    {
+      "path": "wiki/concepts/cav-mixed-traffic-impact-review.md",
+      "type": "concept",
+      "id": "cav-mixed-traffic-impact-review",
+      "title": "CAV Mixed-Traffic Impact Review",
+      "frontmatter": {
+        "type": "concept",
+        "last_updated": "2026-04-29",
+        "source_pages": [
+          "wiki/papers/P0019-2024-Pan-CAV-Impacts-Mixed-Traffic-Flow-Review.md"
+        ],
+        "confidence": "medium"
+      },
+      "links": [
+        "wiki/concepts/field-experimental-communication-delay-cav-merging",
+        "wiki/field/shared-assumptions",
+        "wiki/gaps/confirmed-gaps",
+        "wiki/gaps/open-questions",
+        "wiki/papers/P0018-2025-Liu-Hierarchical-Cooperative-Constrained-Control",
+        "wiki/papers/P0019-2024-Pan-CAV-Impacts-Mixed-Traffic-Flow-Review"
+      ]
+    },
+    {
+      "path": "wiki/concepts/closed-form-optimal-merging.md",
+      "type": "concept",
+      "id": "closed-form-optimal-merging",
+      "title": "Closed-Form Optimal Merging",
+      "frontmatter": {
+        "type": "concept",
+        "last_updated": "2026-04-26",
+        "source_pages": [
+          "wiki/papers/P005-2017-Rios-Torres-Automated-Cooperative-Merging.md"
+        ],
+        "confidence": "high"
+      },
+      "links": [
+        "wiki/concepts/flexible-merging-positions",
+        "wiki/field/field-map",
+        "wiki/papers/P005-2017-Rios-Torres-Automated-Cooperative-Merging"
+      ]
+    },
+    {
+      "path": "wiki/concepts/consensus-based-mixed-traffic-merging.md",
+      "type": "concept",
+      "id": "consensus-based-mixed-traffic-merging",
+      "title": "Consensus-Based Mixed-Traffic Merging",
+      "frontmatter": {
+        "type": "concept",
+        "last_updated": "2026-04-29",
+        "source_pages": [
+          "wiki/papers/P003-2025-Jing-Hierarchical-Cooperative-Merging-Control.md"
+        ],
+        "confidence": "medium"
+      },
+      "links": [
+        "wiki/concepts/mixed-traffic-multilane-cormc",
+        "wiki/gaps/open-questions",
+        "wiki/papers/P003-2025-Jing-Hierarchical-Cooperative-Merging-Control"
+      ]
+    },
+    {
+      "path": "wiki/concepts/dcoma-dynamic-cooperative-merging-assistant.md",
+      "type": "concept",
+      "id": "dcoma-dynamic-cooperative-merging-assistant",
+      "title": "DCoMA Dynamic Cooperative Merging Assistant",
+      "frontmatter": {
+        "type": "concept",
+        "last_updated": "2026-04-29",
+        "source_pages": [
+          "wiki/papers/P0021-2024-Li-DCoMA-Dynamic-Coordinative-Merging-Assistant.md"
+        ],
+        "confidence": "high"
+      },
+      "links": [
+        "wiki/comparisons/merging-control-baselines",
+        "wiki/concepts/flow-level-multilane-comc",
+        "wiki/concepts/vts-drl-ocp-onramp-merging",
+        "wiki/gaps/open-questions",
+        "wiki/papers/P0018-2025-Liu-Hierarchical-Cooperative-Constrained-Control",
+        "wiki/papers/P0021-2024-Li-DCoMA-Dynamic-Coordinative-Merging-Assistant"
+      ]
+    },
+    {
+      "path": "wiki/concepts/dual-module-ppo-heterogeneous-onramp-control.md",
+      "type": "concept",
+      "id": "dual-module-ppo-heterogeneous-onramp-control",
+      "title": "Dual-Module PPO Heterogeneous On-Ramp Control",
+      "frontmatter": {
+        "type": "concept",
+        "title": "Dual-Module PPO Heterogeneous On-Ramp Control",
+        "status": "active",
+        "confidence": "medium",
+        "source_pages": [
+          "wiki/papers/P0014-2025-Yang-Dual-Module-Cooperative-Control-On-Ramp.md"
+        ],
+        "last_updated": "2026-04-29"
+      },
+      "links": [
+        "wiki/papers/P0014-2025-Yang-Dual-Module-Cooperative-Control-On-Ramp"
+      ]
+    },
+    {
+      "path": "wiki/concepts/field-experimental-communication-delay-cav-merging.md",
+      "type": "concept",
+      "id": "field-experimental-communication-delay-cav-merging",
+      "title": "Field Experimental Communication Delay in CAV Merging",
+      "frontmatter": {
+        "type": "concept",
+        "last_updated": "2026-04-28",
+        "source_pages": [
+          "wiki/papers/P009-2024-Li-Experimental-assessment-communication-delay.md"
+        ],
+        "confidence": "medium"
+      },
+      "links": [
+        "wiki/concepts/closed-form-optimal-merging",
+        "wiki/concepts/consensus-based-mixed-traffic-merging",
+        "wiki/gaps/confirmed-gaps",
+        "wiki/gaps/open-questions",
+        "wiki/papers/P009-2024-Li-Experimental-assessment-communication-delay"
+      ]
+    },
+    {
+      "path": "wiki/concepts/flexible-control-barrier-function-merging.md",
+      "type": "concept",
+      "id": "flexible-control-barrier-function-merging",
+      "title": "Flexible Control Barrier Function Merging",
+      "frontmatter": {
+        "type": "concept",
+        "last_updated": "2026-04-28",
+        "source_pages": [
+          "wiki/papers/P006-2023-Liu-Safety-Critical-and-Flexible-Cooperative-Merging.md"
+        ],
+        "confidence": "medium"
+      },
+      "links": [
+        "wiki/comparisons/merging-control-baselines",
+        "wiki/concepts/consensus-based-mixed-traffic-merging",
+        "wiki/concepts/flexible-merging-positions",
+        "wiki/gaps/open-questions",
+        "wiki/papers/P006-2023-Liu-Safety-Critical-and-Flexible-Cooperative-Merging"
+      ]
+    },
+    {
+      "path": "wiki/concepts/flexible-merging-positions.md",
+      "type": "concept",
+      "id": "flexible-merging-positions",
+      "title": "Flexible Merging Positions",
+      "frontmatter": {
+        "type": "concept",
+        "last_updated": "2026-04-26",
+        "source_pages": [
+          "wiki/papers/P001-2022-Tang-A-novel-hierarchical-cooperative-merging-control.md"
+        ],
+        "confidence": "medium"
+      },
+      "links": [
+        "wiki/field/field-map",
+        "wiki/gaps/open-questions",
+        "wiki/papers/P001-2022-Tang-A-novel-hierarchical-cooperative-merging-control"
+      ]
+    },
+    {
+      "path": "wiki/concepts/flow-level-multilane-comc.md",
+      "type": "concept",
+      "id": "flow-level-multilane-comc",
+      "title": "Flow-Level Multilane CoMC",
+      "frontmatter": {
+        "type": "concept",
+        "title": "Flow-Level Multilane CoMC",
+        "status": "active",
+        "confidence": "medium",
+        "source_pages": [
+          "wiki/papers/P0012-2022-Zhu-Flow-level-Coordination-Multilane-Merging.md"
+        ],
+        "last_updated": "2026-04-29"
+      },
+      "links": [
+        "wiki/papers/P0012-2022-Zhu-Flow-level-Coordination-Multilane-Merging"
+      ]
+    },
+    {
+      "path": "wiki/concepts/hierarchical-sequence-speed-adaptation-control.md",
+      "type": "concept",
+      "id": "hierarchical-sequence-speed-adaptation-control",
+      "title": "Hierarchical Sequence and Speed-Adaptation Control",
+      "frontmatter": {
+        "type": "concept",
+        "last_updated": "2026-04-29",
+        "source_pages": [
+          "wiki/papers/P0022-2021-Chen-Hierarchical-Model-Based-Cooperative-Merging.md"
+        ],
+        "confidence": "high"
+      },
+      "links": [
+        "wiki/comparisons/merging-control-baselines",
+        "wiki/concepts/dcoma-dynamic-cooperative-merging-assistant",
+        "wiki/concepts/integrated-minlp-merging-sequence-trajectory",
+        "wiki/concepts/vts-drl-ocp-onramp-merging",
+        "wiki/gaps/open-questions",
+        "wiki/papers/P0022-2021-Chen-Hierarchical-Model-Based-Cooperative-Merging"
+      ]
+    },
+    {
+      "path": "wiki/concepts/integrated-longitudinal-lateral-dnmpc-merging.md",
+      "type": "concept",
+      "id": "integrated-longitudinal-lateral-dnmpc-merging",
+      "title": "Integrated Longitudinal-Lateral DNMPC Merging",
+      "frontmatter": {
+        "type": "concept",
+        "title": "Integrated Longitudinal-Lateral DNMPC Merging",
+        "status": "active",
+        "confidence": "medium",
+        "source_pages": [
+          "wiki/papers/P0011-2022-Jing-Integrated-Longitudinal-Lateral-Merging.md"
+        ],
+        "last_updated": "2026-04-29"
+      },
+      "links": [
+        "wiki/papers/P0011-2022-Jing-Integrated-Longitudinal-Lateral-Merging"
+      ]
+    },
+    {
+      "path": "wiki/concepts/integrated-minlp-merging-sequence-trajectory.md",
+      "type": "concept",
+      "id": "integrated-minlp-merging-sequence-trajectory",
+      "title": "Integrated MINLP Merging Sequence and Trajectory",
+      "frontmatter": {
+        "type": "concept",
+        "last_updated": "2026-04-28",
+        "source_pages": [
+          "wiki/papers/P007-2024-Chen-Integrated-Approach-Optimal-Merging.md"
+        ],
+        "confidence": "medium"
+      },
+      "links": [
+        "wiki/comparisons/merging-control-baselines",
+        "wiki/concepts/flexible-control-barrier-function-merging",
+        "wiki/concepts/flexible-merging-positions",
+        "wiki/gaps/open-questions",
+        "wiki/papers/P007-2024-Chen-Integrated-Approach-Optimal-Merging"
+      ]
+    },
+    {
+      "path": "wiki/concepts/mixed-traffic-multilane-cormc.md",
+      "type": "concept",
+      "id": "mixed-traffic-multilane-cormc",
+      "title": "Mixed-Traffic Multilane CORMC",
+      "frontmatter": {
+        "type": "concept",
+        "last_updated": "2026-04-26",
+        "source_pages": [
+          "wiki/papers/P002-2023-Hou-Cooperative-On-Ramp-Merging-Control.md"
+        ],
+        "confidence": "medium"
+      },
+      "links": [
+        "wiki/concepts/flexible-merging-positions",
+        "wiki/gaps/open-questions",
+        "wiki/papers/P002-2023-Hou-Cooperative-On-Ramp-Merging-Control"
+      ]
+    },
+    {
+      "path": "wiki/concepts/vts-drl-ocp-onramp-merging.md",
+      "type": "concept",
+      "id": "vts-drl-ocp-onramp-merging",
+      "title": "VTS-DRL-OCP On-Ramp Merging",
+      "frontmatter": {
+        "type": "concept",
+        "last_updated": "2026-04-29",
+        "source_pages": [
+          "wiki/papers/P0020-2024-Muzahid-Optimizing-On-Ramp-Merging-DRL-OCP.md"
+        ],
+        "confidence": "medium"
+      },
+      "links": [
+        "wiki/comparisons/merging-control-baselines",
+        "wiki/concepts/dual-module-ppo-heterogeneous-onramp-control",
+        "wiki/concepts/flexible-control-barrier-function-merging",
+        "wiki/concepts/integrated-minlp-merging-sequence-trajectory",
+        "wiki/gaps/open-questions",
+        "wiki/papers/P0020-2024-Muzahid-Optimizing-On-Ramp-Merging-DRL-OCP"
+      ]
+    },
+    {
+      "path": "wiki/field/field-map.md",
+      "type": "field-map",
+      "id": "field-map",
+      "title": "Field Map",
+      "frontmatter": {
+        "type": "field-map",
+        "last_updated": "2026-04-29",
+        "source_pages": [
+          "wiki/synthesis/mid-field-synthesis-P001-P0022.md",
+          "wiki/comparisons/merging-control-baselines.md"
+        ],
+        "confidence": "medium"
+      },
+      "links": [
+        "wiki/papers/P001-2022-Tang-A-novel-hierarchical-cooperative-merging-control",
+        "wiki/papers/P0010-2025-Choi-Cooperative-Merging-Mixed-Traffic",
+        "wiki/papers/P0011-2022-Jing-Integrated-Longitudinal-Lateral-Merging",
+        "wiki/papers/P0012-2022-Zhu-Flow-level-Coordination-Multilane-Merging",
+        "wiki/papers/P0014-2025-Yang-Dual-Module-Cooperative-Control-On-Ramp",
+        "wiki/papers/P0015-2025-Yang-Cooperative-Control-Heterogeneous-Traffic",
+        "wiki/papers/P0016-2025-Wang-Hierarchical-Cooperative-On-Ramp-Merging",
+        "wiki/papers/P0017-2024-Lu-Fast-and-Adaptive-Perception-and-Planning",
+        "wiki/papers/P0018-2025-Liu-Hierarchical-Cooperative-Constrained-Control",
+        "wiki/papers/P002-2023-Hou-Cooperative-On-Ramp-Merging-Control",
+        "wiki/papers/P0020-2024-Muzahid-Optimizing-On-Ramp-Merging-DRL-OCP",
+        "wiki/papers/P0021-2024-Li-DCoMA-Dynamic-Coordinative-Merging-Assistant",
+        "wiki/papers/P0022-2021-Chen-Hierarchical-Model-Based-Cooperative-Merging",
+        "wiki/papers/P003-2025-Jing-Hierarchical-Cooperative-Merging-Control",
+        "wiki/papers/P004-2025-Wang-Cooperative-Control-CAVs-Merging",
+        "wiki/papers/P005-2017-Rios-Torres-Automated-Cooperative-Merging",
+        "wiki/papers/P006-2023-Liu-Safety-Critical-and-Flexible-Cooperative-Merging",
+        "wiki/papers/P007-2024-Chen-Integrated-Approach-Optimal-Merging",
+        "wiki/papers/P008-2025-Zhang-Cooperative-Control-Mixed-Vehicles",
+        "wiki/papers/P009-2024-Li-Experimental-assessment-communication-delay",
+        "wiki/synthesis/mid-field-synthesis-P001-P0022"
+      ]
+    },
+    {
+      "path": "wiki/field/research-frontier.md",
+      "type": "research-frontier",
+      "id": "research-frontier",
+      "title": "Research Frontier",
+      "frontmatter": {
+        "type": "research-frontier",
+        "last_updated": "2026-04-26",
+        "source_pages": [],
+        "confidence": "low"
+      },
+      "links": []
+    },
+    {
+      "path": "wiki/field/shared-assumptions.md",
+      "type": "shared-assumptions",
+      "id": "shared-assumptions",
+      "title": "Shared Assumptions",
+      "frontmatter": {
+        "type": "shared-assumptions",
+        "last_updated": "2026-04-29",
+        "source_pages": [
+          "wiki/synthesis/mid-field-synthesis-P001-P0022.md"
+        ],
+        "confidence": "medium"
+      },
+      "links": [
+        "wiki/gaps/confirmed-gaps",
+        "wiki/gaps/open-questions"
+      ]
+    },
+    {
+      "path": "wiki/gaps/confirmed-gaps.md",
+      "type": "confirmed-gaps",
+      "id": "confirmed-gaps",
+      "title": "Confirmed Gaps",
+      "frontmatter": {
+        "type": "confirmed-gaps",
+        "last_updated": "2026-04-29",
+        "source_pages": [
+          "wiki/synthesis/mid-field-synthesis-P001-P0022.md"
+        ],
+        "confidence": "medium"
+      },
+      "links": []
+    },
+    {
+      "path": "wiki/gaps/open-questions.md",
+      "type": "open-questions",
+      "id": "open-questions",
+      "title": "Open Questions",
+      "frontmatter": {
+        "type": "open-questions",
+        "last_updated": "2026-04-29",
+        "source_pages": [
+          "wiki/synthesis/mid-field-synthesis-P001-P0022.md"
+        ],
+        "confidence": "medium"
+      },
+      "links": [
+        "wiki/papers/P001-2022-Tang-A-novel-hierarchical-cooperative-merging-control",
+        "wiki/papers/P0010-2025-Choi-Cooperative-Merging-Mixed-Traffic",
+        "wiki/papers/P0011-2022-Jing-Integrated-Longitudinal-Lateral-Merging",
+        "wiki/papers/P0012-2022-Zhu-Flow-level-Coordination-Multilane-Merging",
+        "wiki/papers/P0014-2025-Yang-Dual-Module-Cooperative-Control-On-Ramp",
+        "wiki/papers/P0015-2025-Yang-Cooperative-Control-Heterogeneous-Traffic",
+        "wiki/papers/P0016-2025-Wang-Hierarchical-Cooperative-On-Ramp-Merging",
+        "wiki/papers/P0017-2024-Lu-Fast-and-Adaptive-Perception-and-Planning",
+        "wiki/papers/P0018-2025-Liu-Hierarchical-Cooperative-Constrained-Control",
+        "wiki/papers/P0019-2024-Pan-CAV-Impacts-Mixed-Traffic-Flow-Review",
+        "wiki/papers/P002-2023-Hou-Cooperative-On-Ramp-Merging-Control",
+        "wiki/papers/P0020-2024-Muzahid-Optimizing-On-Ramp-Merging-DRL-OCP",
+        "wiki/papers/P0021-2024-Li-DCoMA-Dynamic-Coordinative-Merging-Assistant",
+        "wiki/papers/P0022-2021-Chen-Hierarchical-Model-Based-Cooperative-Merging",
+        "wiki/papers/P003-2025-Jing-Hierarchical-Cooperative-Merging-Control",
+        "wiki/papers/P004-2025-Wang-Cooperative-Control-CAVs-Merging",
+        "wiki/papers/P005-2017-Rios-Torres-Automated-Cooperative-Merging",
+        "wiki/papers/P006-2023-Liu-Safety-Critical-and-Flexible-Cooperative-Merging",
+        "wiki/papers/P007-2024-Chen-Integrated-Approach-Optimal-Merging",
+        "wiki/papers/P008-2025-Zhang-Cooperative-Control-Mixed-Vehicles",
+        "wiki/papers/P009-2024-Li-Experimental-assessment-communication-delay",
+        "wiki/synthesis/mid-field-synthesis-P001-P0022"
+      ]
+    },
+    {
+      "path": "wiki/hypotheses/index.md",
+      "type": "hypothesis",
+      "id": "index",
+      "title": "Hypotheses Index",
+      "frontmatter": {},
+      "links": []
+    },
+    {
+      "path": "wiki/papers/P001-2022-Tang-A-novel-hierarchical-cooperative-merging-control.md",
+      "type": "paper",
+      "id": "P001",
+      "title": "A novel hierarchical cooperative merging control model of connected and automated vehicles featuring flexible merging positions in system optimization",
+      "frontmatter": {
+        "type": "paper",
+        "paper_id": "P001",
+        "title": "A novel hierarchical cooperative merging control model of connected and automated vehicles featuring flexible merging positions in system optimization",
+        "authors": "Zhixian Tang, Hong Zhu, Xin Zhang, Miho Iryo-Asano, Hideki Nakamura",
+        "year": "2022",
+        "venue": "Transportation Research Part C: Emerging Technologies",
+        "status": "read",
+        "confidence": "medium",
+        "source_path": "raw/papers/P001-2022-Tang-A-novel-hierarchical-cooperative-merging-control.md",
+        "zotero_key": [],
+        "doi": [],
+        "tags": [
+          "CAV",
+          "on-ramp-merging",
+          "cooperative-merging-control",
+          "flexible-merging-position",
+          "MCTS"
+        ],
+        "last_updated": "2026-04-26"
+      },
+      "links": [
+        "wiki/concepts/flexible-merging-positions"
+      ]
+    },
+    {
+      "path": "wiki/papers/P0010-2025-Choi-Cooperative-Merging-Mixed-Traffic.md",
+      "type": "paper",
+      "id": "P0010",
+      "title": "Cooperative Merging in Mixed Traffic Based on Strategic Influence of Connected Automated Vehicles on Human-Driven Vehicle Behavior",
+      "frontmatter": {
+        "type": "paper",
+        "paper_id": "P0010",
+        "title": "Cooperative Merging in Mixed Traffic Based on Strategic Influence of Connected Automated Vehicles on Human-Driven Vehicle Behavior",
+        "authors": "Kyunghwan Choi, Seongjae Shin, Minseok Seo",
+        "year": "2025",
+        "venue": "Advanced Intelligent Systems",
+        "status": "read",
+        "confidence": "high",
+        "source_path": "raw/papers/P0010-2025-Choi-Cooperative-Merging-Mixed-Traffic.md",
+        "zotero_key": [],
+        "doi": "10.1002/aisy.202400797",
+        "tags": [
+          "CAV",
+          "HDV",
+          "mixed-traffic",
+          "strategic-slowdown",
+          "arrival-time-optimization",
+          "dynamic-optimization",
+          "cooperative-merging"
+        ],
+        "last_updated": "2026-04-28"
+      },
+      "links": [
+        "wiki/comparisons/merging-control-baselines",
+        "wiki/concepts/field-experimental-communication-delay-cav-merging",
+        "wiki/concepts/flexible-control-barrier-function-merging",
+        "wiki/concepts/integrated-minlp-merging-sequence-trajectory",
+        "wiki/concepts/mixed-traffic-multilane-cormc",
+        "wiki/gaps/open-questions"
+      ]
+    },
+    {
+      "path": "wiki/papers/P0011-2022-Jing-Integrated-Longitudinal-Lateral-Merging.md",
+      "type": "paper",
+      "id": "P0011",
+      "title": "Integrated Longitudinal and Lateral Hierarchical Control of Cooperative Merging of Connected and Automated Vehicles at On-Ramps",
+      "frontmatter": {
+        "type": "paper",
+        "paper_id": "P0011",
+        "title": "Integrated Longitudinal and Lateral Hierarchical Control of Cooperative Merging of Connected and Automated Vehicles at On-Ramps",
+        "authors": "Shoucai Jing, Fei Hui, Xiangmo Zhao, Jackeline Rios-Torres, Asad J. Khattak",
+        "year": "2022",
+        "venue": "IEEE Transactions on Intelligent Transportation Systems",
+        "status": "read",
+        "confidence": "high",
+        "source_path": "raw/papers/P0011-2022-Jing-Integrated-Longitudinal-Lateral-Merging.md",
+        "zotero_key": [],
+        "doi": "10.1109/TITS.2022.3204033",
+        "tags": [
+          "CAV",
+          "cooperative-merging",
+          "longitudinal-lateral-control",
+          "hierarchical-control",
+          "DNMPC",
+          "CarSim-Simulink",
+          "driving-safety-field"
+        ],
+        "last_updated": "2026-04-29"
+      },
+      "links": [
+        "wiki/concepts/flexible-control-barrier-function-merging",
+        "wiki/concepts/integrated-longitudinal-lateral-dnmpc-merging",
+        "wiki/concepts/integrated-minlp-merging-sequence-trajectory",
+        "wiki/papers/P005-2017-Rios-Torres-Automated-Cooperative-Merging"
+      ]
+    },
+    {
+      "path": "wiki/papers/P0012-2022-Zhu-Flow-level-Coordination-Multilane-Merging.md",
+      "type": "paper",
+      "id": "P0012",
+      "title": "Flow-level Coordination of Connected and Autonomous Vehicles in Multilane Freeway Ramp Merging Areas",
+      "frontmatter": {
+        "type": "paper",
+        "paper_id": "P0012",
+        "title": "Flow-level Coordination of Connected and Autonomous Vehicles in Multilane Freeway Ramp Merging Areas",
+        "authors": "Jie Zhu, Ivana Tasic, Xiaobo Qu",
+        "year": "2022",
+        "venue": "Transportation Research Part C: Emerging Technologies",
+        "status": "read",
+        "confidence": "high",
+        "source_path": "raw/papers/P0012-2022-Zhu-Flow-level-Coordination-Multilane-Merging.md",
+        "zotero_key": [],
+        "doi": [],
+        "tags": [
+          "CAV",
+          "flow-level-coordination",
+          "multilane-freeway",
+          "ramp-merging",
+          "proactive-gap-creation",
+          "platoon-merging",
+          "VISSIM"
+        ],
+        "last_updated": "2026-04-29"
+      },
+      "links": [
+        "wiki/comparisons/merging-control-baselines",
+        "wiki/concepts/flow-level-multilane-comc",
+        "wiki/concepts/integrated-longitudinal-lateral-dnmpc-merging",
+        "wiki/papers/P004-2025-Wang-Cooperative-Control-CAVs-Merging"
+      ]
+    },
+    {
+      "path": "wiki/papers/P0014-2025-Yang-Dual-Module-Cooperative-Control-On-Ramp.md",
+      "type": "paper",
+      "id": "P0014",
+      "title": "A Dual-Module Cooperative Control Method for On-Ramp Area in Heterogeneous Traffic Flow Using Reinforcement Learning",
+      "frontmatter": {
+        "type": "paper",
+        "paper_id": "P0014",
+        "title": "A Dual-Module Cooperative Control Method for On-Ramp Area in Heterogeneous Traffic Flow Using Reinforcement Learning",
+        "authors": "Wenzhang Yang, Changyin Dong, Ziqian Zhang, Xu Chen, Hao Wang",
+        "year": "2025",
+        "venue": "Engineering Applications of Artificial Intelligence",
+        "status": "read",
+        "confidence": "high",
+        "source_path": "raw/papers/P0014-2025-Yang-Dual-Module-Cooperative-Control-On-Ramp.md",
+        "zotero_key": [],
+        "doi": [],
+        "tags": [
+          "CAV",
+          "HDV",
+          "heterogeneous-traffic",
+          "reinforcement-learning",
+          "PPO",
+          "dual-module-control",
+          "merging-control",
+          "lane-changing-control",
+          "TET"
+        ],
+        "last_updated": "2026-04-29"
+      },
+      "links": [
+        "wiki/concepts/consensus-based-mixed-traffic-merging",
+        "wiki/concepts/dual-module-ppo-heterogeneous-onramp-control",
+        "wiki/concepts/flow-level-multilane-comc",
+        "wiki/concepts/mixed-traffic-multilane-cormc"
+      ]
+    },
+    {
+      "path": "wiki/papers/P0015-2025-Yang-Cooperative-Control-Heterogeneous-Traffic.md",
+      "type": "paper",
+      "id": "P0015",
+      "title": "Cooperative Control Strategy for Heterogeneous Traffic Flow in Multi-Lane On-Ramp Areas with Connected and Automated Technology",
+      "frontmatter": {
+        "type": "paper",
+        "paper_id": "P0015",
+        "title": "Cooperative Control Strategy for Heterogeneous Traffic Flow in Multi-Lane On-Ramp Areas with Connected and Automated Technology",
+        "authors": "Wenzhang Yang, Changyin Dong, Ziqian Zhang, Hui Zhang, Hao Wang",
+        "year": "2025",
+        "venue": "Transportation Research Part C: Emerging Technologies",
+        "status": "read",
+        "confidence": "high",
+        "source_path": "raw/papers/P0015-2025-Yang-Cooperative-Control-Heterogeneous-Traffic.md",
+        "zotero_key": [],
+        "doi": [],
+        "tags": [
+          "CAV",
+          "AV",
+          "HDV",
+          "heterogeneous-traffic",
+          "gap-selection",
+          "lane-changing-control",
+          "capacity-drop",
+          "exiD",
+          "ramp-metering-comparison"
+        ],
+        "last_updated": "2026-04-29"
+      },
+      "links": [
+        "wiki/concepts/calibrated-gap-selection-lane-balance-control",
+        "wiki/concepts/consensus-based-mixed-traffic-merging",
+        "wiki/concepts/dual-module-ppo-heterogeneous-onramp-control",
+        "wiki/concepts/flow-level-multilane-comc"
+      ]
+    },
+    {
+      "path": "wiki/papers/P0016-2025-Wang-Hierarchical-Cooperative-On-Ramp-Merging.md",
+      "type": "paper",
+      "id": "P0016",
+      "title": "HCOMC: A Hierarchical Cooperative On-Ramp Merging Control Framework in Mixed Traffic Environment on Two-Lane Highways",
+      "frontmatter": {
+        "type": "paper",
+        "paper_id": "P0016",
+        "title": "HCOMC: A Hierarchical Cooperative On-Ramp Merging Control Framework in Mixed Traffic Environment on Two-Lane Highways",
+        "authors": "Tianyi Wang, Yangyang Wang, Jie Pan, Junfeng Jiao, Christian Claudel",
+        "year": "2025",
+        "venue": "IEEE",
+        "status": "read",
+        "confidence": "high",
+        "source_path": "raw/papers/P0016-2025-Wang-Hierarchical-Cooperative-On-Ramp-Merging.md",
+        "zotero_key": [],
+        "doi": [],
+        "tags": [
+          "CAV",
+          "HDV",
+          "mixed-traffic",
+          "HCOMC",
+          "two-lane-highway",
+          "virtual-vehicle",
+          "Stackelberg-game",
+          "NSGA-II",
+          "multi-objective-optimization"
+        ],
+        "last_updated": "2026-04-29"
+      },
+      "links": [
+        "wiki/comparisons/merging-control-baselines",
+        "wiki/concepts/calibrated-gap-selection-lane-balance-control",
+        "wiki/concepts/dual-module-ppo-heterogeneous-onramp-control",
+        "wiki/concepts/integrated-longitudinal-lateral-dnmpc-merging",
+        "wiki/gaps/open-questions"
+      ]
+    },
+    {
+      "path": "wiki/papers/P0017-2024-Lu-Fast-and-Adaptive-Perception-and-Planning.md",
+      "type": "paper",
+      "id": "P0017",
+      "title": "FAPP: Fast and Adaptive Perception and Planning for UAVs in Dynamic Cluttered Environments",
+      "frontmatter": {
+        "type": "paper",
+        "paper_id": "P0017",
+        "title": "FAPP: Fast and Adaptive Perception and Planning for UAVs in Dynamic Cluttered Environments",
+        "authors": "Minghao Lu, Xiyu Fan, Han Chen, Peng Lu",
+        "year": "2024",
+        "venue": "IEEE",
+        "status": "read",
+        "confidence": "medium",
+        "source_path": "raw/papers/P0017-2024-Lu-Fast-and-Adaptive-Perception-and-Planning.md",
+        "zotero_key": [],
+        "doi": [],
+        "tags": [
+          "UAV",
+          "dynamic-obstacle-avoidance",
+          "point-cloud-segmentation",
+          "adaptive-estimation",
+          "covariance-adaptation",
+          "trajectory-optimization",
+          "replanning"
+        ],
+        "last_updated": "2026-04-29"
+      },
+      "links": [
+        "wiki/concepts/field-experimental-communication-delay-cav-merging",
+        "wiki/concepts/flexible-control-barrier-function-merging",
+        "wiki/gaps/open-questions",
+        "wiki/papers/P0010-2025-Choi-Cooperative-Merging-Mixed-Traffic"
+      ]
+    },
+    {
+      "path": "wiki/papers/P0018-2025-Liu-Hierarchical-Cooperative-Constrained-Control.md",
+      "type": "paper",
+      "id": "P0018",
+      "title": "Hierarchical cooperative constrained control for multi-lane merging process under mixed traffic scenario",
+      "frontmatter": {
+        "type": "paper",
+        "paper_id": "P0018",
+        "title": "Hierarchical cooperative constrained control for multi-lane merging process under mixed traffic scenario",
+        "authors": "Xiaoyu Liu, Min Zhao, Liuping Wang, Dihua Sun",
+        "year": "2025",
+        "venue": "Springer Nature",
+        "status": "read",
+        "confidence": "high",
+        "source_path": "raw/papers/P0018-2025-liu-hcmcc-multi-lane-merging.md",
+        "zotero_key": [],
+        "doi": [],
+        "tags": [
+          "CAV",
+          "HV",
+          "mixed-traffic",
+          "multi-lane-merging",
+          "HCMCC",
+          "MILP",
+          "LCMPC-PTO",
+          "lane-changing",
+          "SUMO"
+        ],
+        "last_updated": "2026-04-29"
+      },
+      "links": [
+        "wiki/comparisons/merging-control-baselines",
+        "wiki/concepts/flow-level-multilane-comc",
+        "wiki/concepts/integrated-longitudinal-lateral-dnmpc-merging",
+        "wiki/concepts/mixed-traffic-multilane-cormc",
+        "wiki/field/field-map",
+        "wiki/gaps/open-questions",
+        "wiki/papers/P0016-2025-Wang-Hierarchical-Cooperative-On-Ramp-Merging"
+      ]
+    },
+    {
+      "path": "wiki/papers/P0019-2024-Pan-CAV-Impacts-Mixed-Traffic-Flow-Review.md",
+      "type": "paper",
+      "id": "P0019",
+      "title": "The impacts of connected autonomous vehicles on mixed traffic flow: A comprehensive review",
+      "frontmatter": {
+        "type": "paper",
+        "paper_id": "P0019",
+        "title": "The impacts of connected autonomous vehicles on mixed traffic flow: A comprehensive review",
+        "authors": "Yuchen Pan, Yu Wu, Lu Xu, Chengyi Xia, David L. Olson",
+        "year": "2024",
+        "venue": "Review article",
+        "status": "read",
+        "confidence": "medium",
+        "source_path": "raw/papers/P0019-2024-Pan-CAV-Impacts-Mixed-Traffic-Flow-Review.md",
+        "zotero_key": [],
+        "doi": [],
+        "tags": [
+          "CAV",
+          "mixed-traffic-flow",
+          "review",
+          "traffic-efficiency",
+          "stability",
+          "safety",
+          "environment",
+          "policy",
+          "cybersecurity"
+        ],
+        "last_updated": "2026-04-29"
+      },
+      "links": [
+        "wiki/concepts/cav-mixed-traffic-impact-review",
+        "wiki/concepts/field-experimental-communication-delay-cav-merging",
+        "wiki/gaps/confirmed-gaps",
+        "wiki/papers/P0018-2025-Liu-Hierarchical-Cooperative-Constrained-Control"
+      ]
+    },
+    {
+      "path": "wiki/papers/P002-2023-Hou-Cooperative-On-Ramp-Merging-Control.md",
+      "type": "paper",
+      "id": "P002",
+      "title": "Cooperative On-Ramp Merging Control Model for Mixed Traffic on Multi-Lane Freeways",
+      "frontmatter": {
+        "type": "paper",
+        "paper_id": "P002",
+        "title": "Cooperative On-Ramp Merging Control Model for Mixed Traffic on Multi-Lane Freeways",
+        "authors": "Kangning Hou, Fangfang Zheng, Xiaobo Liu, Ge Guo",
+        "year": "2023",
+        "venue": "IEEE Transactions on Intelligent Transportation Systems",
+        "status": "read",
+        "confidence": "medium",
+        "source_path": "raw/papers/P002-2023-Hou-Cooperative-On-Ramp-Merging-Control.md",
+        "zotero_key": [],
+        "doi": "10.1109/TITS.2023.3274586",
+        "tags": [
+          "CAV",
+          "CHV",
+          "mixed-traffic",
+          "multilane-merging",
+          "cooperative-merging-control",
+          "APS",
+          "CUC"
+        ],
+        "last_updated": "2026-04-26"
+      },
+      "links": [
+        "wiki/concepts/mixed-traffic-multilane-cormc"
+      ]
+    },
+    {
+      "path": "wiki/papers/P0020-2024-Muzahid-Optimizing-On-Ramp-Merging-DRL-OCP.md",
+      "type": "paper",
+      "id": "P0020",
+      "title": "Optimizing On-Ramp Merging for Connected and Automated Vehicles: A Hierarchical Approach Using Deep Reinforcement Learning and Optimal Control",
+      "frontmatter": {
+        "type": "paper",
+        "paper_id": "P0020",
+        "title": "Optimizing On-Ramp Merging for Connected and Automated Vehicles: A Hierarchical Approach Using Deep Reinforcement Learning and Optimal Control",
+        "authors": "Abu Jafar Md Muzahid, Yang Shi, Zejiang Wang, Anye Zhou, Adian Cook, Chieh Ross Wang, Zhenbo Wang",
+        "year": "2024",
+        "venue": "Preprint",
+        "status": "read",
+        "confidence": "medium",
+        "source_path": "raw/papers/P0020-2024-Muzahid-Optimizing-On-Ramp-Merging-DRL-OCP.md",
+        "zotero_key": [],
+        "doi": [],
+        "tags": [
+          "CAV",
+          "on-ramp-merging",
+          "virtual-traffic-signal",
+          "DRL",
+          "dueling-DQN",
+          "convolutional-autoencoder",
+          "OCP",
+          "MPC",
+          "fuel-efficiency"
+        ],
+        "last_updated": "2026-04-29"
+      },
+      "links": [
+        "wiki/concepts/dual-module-ppo-heterogeneous-onramp-control",
+        "wiki/concepts/integrated-minlp-merging-sequence-trajectory",
+        "wiki/concepts/vts-drl-ocp-onramp-merging",
+        "wiki/papers/P0017-2024-Lu-Fast-and-Adaptive-Perception-and-Planning"
+      ]
+    },
+    {
+      "path": "wiki/papers/P0021-2024-Li-DCoMA-Dynamic-Coordinative-Merging-Assistant.md",
+      "type": "paper",
+      "id": "P0021",
+      "title": "DCoMA: A dynamic coordinative merging assistant strategy for on-ramp vehicles with mixed traffic conditions",
+      "frontmatter": {
+        "type": "paper",
+        "paper_id": "P0021",
+        "title": "DCoMA: A dynamic coordinative merging assistant strategy for on-ramp vehicles with mixed traffic conditions",
+        "authors": "Linheng Li, Chen Qian, Jing Gan, Dapeng Zhang, Xu Qu, Feng Xiao, Bin Ran",
+        "year": "2024",
+        "venue": "Transportation Research",
+        "status": "read",
+        "confidence": "high",
+        "source_path": "raw/papers/P0021-2024-Li-DCoMA-Dynamic-Coordinative-Merging-Assistant.md",
+        "zotero_key": [],
+        "doi": [],
+        "tags": [
+          "CAV",
+          "HDV",
+          "mixed-traffic",
+          "DCoMA",
+          "on-ramp-merging",
+          "fundamental-diagram",
+          "gap-creation",
+          "platoon-formation",
+          "ramp-metering",
+          "emissions"
+        ],
+        "last_updated": "2026-04-29"
+      },
+      "links": [
+        "wiki/concepts/cav-mixed-traffic-impact-review",
+        "wiki/concepts/dcoma-dynamic-cooperative-merging-assistant",
+        "wiki/concepts/flow-level-multilane-comc",
+        "wiki/concepts/vts-drl-ocp-onramp-merging",
+        "wiki/papers/P0018-2025-Liu-Hierarchical-Cooperative-Constrained-Control"
+      ]
+    },
+    {
+      "path": "wiki/papers/P0022-2021-Chen-Hierarchical-Model-Based-Cooperative-Merging.md",
+      "type": "paper",
+      "id": "P0022",
+      "title": "A Hierarchical Model-Based Optimization Control Approach for Cooperative Merging by Connected Automated Vehicles",
+      "frontmatter": {
+        "type": "paper",
+        "paper_id": "P0022",
+        "title": "A Hierarchical Model-Based Optimization Control Approach for Cooperative Merging by Connected Automated Vehicles",
+        "authors": "Na Chen, Bart van Arem, Tom Alkim, Meng Wang",
+        "year": "2021",
+        "venue": "IEEE Transactions on Intelligent Transportation Systems",
+        "status": "read",
+        "confidence": "high",
+        "source_path": "raw/papers/P0022-2021-chen-cooperative-merging-cavs.md",
+        "zotero_key": [],
+        "doi": "10.1109/TITS.2020.3007647",
+        "tags": [
+          "CAV",
+          "on-ramp-merging",
+          "hierarchical-control",
+          "merging-sequence",
+          "speed-adaptation-time",
+          "MPC",
+          "model-based-control",
+          "FIFO"
+        ],
+        "last_updated": "2026-04-29"
+      },
+      "links": [
+        "wiki/concepts/dcoma-dynamic-cooperative-merging-assistant",
+        "wiki/concepts/hierarchical-sequence-speed-adaptation-control",
+        "wiki/concepts/integrated-longitudinal-lateral-dnmpc-merging",
+        "wiki/concepts/integrated-minlp-merging-sequence-trajectory",
+        "wiki/concepts/vts-drl-ocp-onramp-merging"
+      ]
+    },
+    {
+      "path": "wiki/papers/P003-2025-Jing-Hierarchical-Cooperative-Merging-Control.md",
+      "type": "paper",
+      "id": "P003",
+      "title": "A hierarchical cooperative merging control strategy for the mixed traffic of CAVs and HDVs",
+      "frontmatter": {
+        "type": "paper",
+        "paper_id": "P003",
+        "title": "A hierarchical cooperative merging control strategy for the mixed traffic of CAVs and HDVs",
+        "authors": "Dian Jing, Rongsheng Chen, Enjian Yao, Monica Menendez",
+        "year": "2025",
+        "venue": "Transportation Research Part C: Emerging Technologies",
+        "status": "read",
+        "confidence": "medium",
+        "source_path": "raw/papers/P003-2025-Jing-Hierarchical-Cooperative-Merging-Control.md",
+        "zotero_key": [],
+        "doi": "10.1016/j.trc.2025.105230",
+        "tags": [
+          "CAV",
+          "HDV",
+          "mixed-traffic",
+          "merging-sequencing",
+          "consensus-controller",
+          "platoon-stability"
+        ],
+        "last_updated": "2026-04-26"
+      },
+      "links": [
+        "wiki/concepts/consensus-based-mixed-traffic-merging"
+      ]
+    },
+    {
+      "path": "wiki/papers/P004-2025-Wang-Cooperative-Control-CAVs-Merging.md",
+      "type": "paper",
+      "id": "P004",
+      "title": "Cooperative control of CAVs in the merging area of multi-lane mainline and dual-lane ramps on freeways",
+      "frontmatter": {
+        "type": "paper",
+        "paper_id": "P004",
+        "title": "Cooperative control of CAVs in the merging area of multi-lane mainline and dual-lane ramps on freeways",
+        "authors": "Yi Wang, Jian Xiang, Junliang Pan, Jie Wang, Tao Chen, Hao Wang",
+        "year": "2025",
+        "venue": "Transportation Safety and Environment",
+        "status": "read",
+        "confidence": "medium",
+        "source_path": "raw/papers/P004-2025-Wang-Cooperative-Control-CAVs-Merging.md",
+        "zotero_key": [],
+        "doi": "10.1093/tse/tdaf030",
+        "tags": [
+          "CAV",
+          "multilane-mainline",
+          "dual-lane-ramp",
+          "multi-area-control",
+          "virtual-platoon",
+          "trajectory-optimization"
+        ],
+        "last_updated": "2026-04-26"
+      },
+      "links": [
+        "wiki/comparisons/merging-control-baselines",
+        "wiki/field/field-map"
+      ]
+    },
+    {
+      "path": "wiki/papers/P005-2017-Rios-Torres-Automated-Cooperative-Merging.md",
+      "type": "paper",
+      "id": "P005",
+      "title": "Automated and Cooperative Vehicle Merging at Highway On-Ramps",
+      "frontmatter": {
+        "type": "paper",
+        "paper_id": "P005",
+        "title": "Automated and Cooperative Vehicle Merging at Highway On-Ramps",
+        "authors": "Jackeline Rios-Torres, Andreas A. Malikopoulos",
+        "year": "2017",
+        "venue": "IEEE Transactions on Intelligent Transportation Systems",
+        "status": "read",
+        "confidence": "high",
+        "source_path": "raw/papers/P005-2017-Rios-Torres-Automated-Cooperative-Merging.md",
+        "zotero_key": [],
+        "doi": "10.1109/TITS.2016.2587582",
+        "tags": [
+          "CAV",
+          "cooperative-merging",
+          "optimal-control",
+          "Hamiltonian",
+          "closed-form",
+          "fuel-consumption"
+        ],
+        "last_updated": "2026-04-26"
+      },
+      "links": [
+        "wiki/concepts/closed-form-optimal-merging"
+      ]
+    },
+    {
+      "path": "wiki/papers/P006-2023-Liu-Safety-Critical-and-Flexible-Cooperative-Merging.md",
+      "type": "paper",
+      "id": "P006",
+      "title": "Safety-Critical and Flexible Cooperative On-Ramp Merging Control of Connected and Automated Vehicles in Mixed Traffic",
+      "frontmatter": {
+        "type": "paper",
+        "paper_id": "P006",
+        "title": "Safety-Critical and Flexible Cooperative On-Ramp Merging Control of Connected and Automated Vehicles in Mixed Traffic",
+        "authors": "Haoji Liu, Weichao Zhuang, Guodong Yin, Zhaojian Li, Dongpu Cao",
+        "year": "2023",
+        "venue": "IEEE Transactions on Intelligent Transportation Systems",
+        "status": "read",
+        "confidence": "high",
+        "source_path": "raw/papers/P006-2023-Liu-Safety-Critical-and-Flexible-Cooperative-Merging.md",
+        "zotero_key": [],
+        "doi": "10.1109/TITS.2022.3224592",
+        "tags": [
+          "CAV",
+          "mixed-traffic",
+          "flexible-merging-position",
+          "CBF",
+          "CLF",
+          "receding-horizon",
+          "safety-critical-control"
+        ],
+        "last_updated": "2026-04-28"
+      },
+      "links": [
+        "wiki/concepts/closed-form-optimal-merging",
+        "wiki/concepts/consensus-based-mixed-traffic-merging",
+        "wiki/concepts/flexible-control-barrier-function-merging",
+        "wiki/concepts/flexible-merging-positions"
+      ]
+    },
+    {
+      "path": "wiki/papers/P007-2024-Chen-Integrated-Approach-Optimal-Merging.md",
+      "type": "paper",
+      "id": "P007",
+      "title": "An Integrated Approach to Optimal Merging Sequence Generation and Trajectory Planning of Connected Automated Vehicles for Freeway On-Ramp Merging Sections",
+      "frontmatter": {
+        "type": "paper",
+        "paper_id": "P007",
+        "title": "An Integrated Approach to Optimal Merging Sequence Generation and Trajectory Planning of Connected Automated Vehicles for Freeway On-Ramp Merging Sections",
+        "authors": "Jieming Chen, Yue Zhou, Edward Chung",
+        "year": "2024",
+        "venue": "IEEE Transactions on Intelligent Transportation Systems",
+        "status": "read",
+        "confidence": "high",
+        "source_path": "raw/papers/P007-2024-Chen-Integrated-Approach-Optimal-Merging.md",
+        "zotero_key": [],
+        "doi": "10.1109/TITS.2023.3315650",
+        "tags": [
+          "CAV",
+          "on-ramp-merging",
+          "MINLP",
+          "merging-sequence",
+          "trajectory-planning",
+          "Bezier",
+          "NGSIM"
+        ],
+        "last_updated": "2026-04-28"
+      },
+      "links": [
+        "wiki/comparisons/merging-control-baselines",
+        "wiki/concepts/flexible-control-barrier-function-merging",
+        "wiki/concepts/flexible-merging-positions",
+        "wiki/concepts/integrated-minlp-merging-sequence-trajectory"
+      ]
+    },
+    {
+      "path": "wiki/papers/P008-2025-Zhang-Cooperative-Control-Mixed-Vehicles.md",
+      "type": "paper",
+      "id": "P008",
+      "title": "A traffic control strategy for freeway merging zones cooperating safety and efficiency in the intelligent connected environment of mixed vehicles",
+      "frontmatter": {
+        "type": "paper",
+        "paper_id": "P008",
+        "title": "A traffic control strategy for freeway merging zones cooperating safety and efficiency in the intelligent connected environment of mixed vehicles",
+        "authors": "Lang Zhang, Heng Ding, Zeyang Cheng, Xiaoyan Zheng, Weihua Zhang",
+        "year": "2025",
+        "venue": "Transportation Research Part C: Emerging Technologies",
+        "status": "read",
+        "confidence": "high",
+        "source_path": "raw/papers/P008-2025-Zhang-Cooperative-Control-Mixed-Vehicles.md",
+        "zotero_key": [],
+        "doi": "10.1016/j.trc.2025.105298",
+        "tags": [
+          "mixed-vehicles",
+          "CAV",
+          "HV",
+          "trucks",
+          "MPC",
+          "NSGA-II",
+          "Transformer",
+          "multi-objective-control",
+          "safety-efficiency"
+        ],
+        "last_updated": "2026-04-28"
+      },
+      "links": [
+        "wiki/comparisons/merging-control-baselines",
+        "wiki/concepts/flexible-control-barrier-function-merging",
+        "wiki/concepts/integrated-minlp-merging-sequence-trajectory",
+        "wiki/concepts/mixed-traffic-multilane-cormc"
+      ]
+    },
+    {
+      "path": "wiki/papers/P009-2024-Li-Experimental-assessment-communication-delay.md",
+      "type": "paper",
+      "id": "P009",
+      "title": "Experimental assessment of communication delay's impact on connected automated vehicle speed volatility and energy consumption",
+      "frontmatter": {
+        "type": "paper",
+        "paper_id": "P009",
+        "title": "Experimental assessment of communication delay's impact on connected automated vehicle speed volatility and energy consumption",
+        "authors": "Wan Li, Jackeline Rios-Torres, Boyu Wang, Zulqarnain H. Khattak",
+        "year": "2024",
+        "venue": "Communications in Transportation Research",
+        "status": "read",
+        "confidence": "high",
+        "source_path": "raw/papers/P009-2024-Li-Experimental-assessment-communication-delay.md",
+        "zotero_key": [],
+        "doi": [],
+        "tags": [
+          "CAV",
+          "communication-delay",
+          "field-experiment",
+          "vehicle-in-the-loop",
+          "merging-control",
+          "energy-consumption",
+          "H-LSTM"
+        ],
+        "last_updated": "2026-04-28"
+      },
+      "links": [
+        "wiki/concepts/closed-form-optimal-merging",
+        "wiki/concepts/consensus-based-mixed-traffic-merging",
+        "wiki/concepts/field-experimental-communication-delay-cav-merging",
+        "wiki/concepts/flexible-control-barrier-function-merging",
+        "wiki/gaps/confirmed-gaps"
+      ]
+    },
+    {
+      "path": "wiki/synthesis/concept-consolidation-audit-2026-04-29.md",
+      "type": "concept-consolidation-audit",
+      "id": "concept-consolidation-audit-2026-04-29",
+      "title": "Concept Consolidation Audit: 2026-04-29",
+      "frontmatter": {
+        "type": "concept-consolidation-audit",
+        "last_updated": "2026-04-29",
+        "status": "proposed-no-merge-applied",
+        "source_pages": [
+          ".wiki-schema.md",
+          "purpose.md",
+          "research-agenda.md",
+          "index.md",
+          "wiki/concepts/",
+          "wiki/field/field-map.md",
+          "wiki/comparisons/merging-control-baselines.md",
+          "wiki/synthesis/mid-field-synthesis-P001-P0022.md",
+          "wiki/synthesis/source-quality-audit-2026-04-29.md"
+        ],
+        "confidence": "medium"
+      },
+      "links": [
+        "wiki/comparisons/merging-control-baselines",
+        "wiki/concepts/calibrated-gap-selection-lane-balance-control",
+        "wiki/concepts/cav-mixed-traffic-impact-review",
+        "wiki/concepts/closed-form-optimal-merging",
+        "wiki/concepts/consensus-based-mixed-traffic-merging",
+        "wiki/concepts/dcoma-dynamic-cooperative-merging-assistant",
+        "wiki/concepts/dual-module-ppo-heterogeneous-onramp-control",
+        "wiki/concepts/field-experimental-communication-delay-cav-merging",
+        "wiki/concepts/flexible-control-barrier-function-merging",
+        "wiki/concepts/flexible-merging-positions",
+        "wiki/concepts/flow-level-multilane-comc",
+        "wiki/concepts/hierarchical-sequence-speed-adaptation-control",
+        "wiki/concepts/integrated-longitudinal-lateral-dnmpc-merging",
+        "wiki/concepts/integrated-minlp-merging-sequence-trajectory",
+        "wiki/concepts/mixed-traffic-multilane-cormc",
+        "wiki/concepts/vts-drl-ocp-onramp-merging",
+        "wiki/field/field-map",
+        "wiki/gaps/open-questions",
+        "wiki/papers/P0010-2025-Choi-Cooperative-Merging-Mixed-Traffic",
+        "wiki/papers/P0016-2025-Wang-Hierarchical-Cooperative-On-Ramp-Merging",
+        "wiki/papers/P0017-2024-Lu-Fast-and-Adaptive-Perception-and-Planning",
+        "wiki/papers/P0018-2025-Liu-Hierarchical-Cooperative-Constrained-Control",
+        "wiki/papers/P004-2025-Wang-Cooperative-Control-CAVs-Merging",
+        "wiki/papers/P008-2025-Zhang-Cooperative-Control-Mixed-Vehicles"
+      ]
+    },
+    {
+      "path": "wiki/synthesis/mid-field-synthesis-P001-P0022.md",
+      "type": "mid-field-synthesis",
+      "id": "mid-field-synthesis-P001-P0022",
+      "title": "Mid-Field Synthesis: P001-P0022",
+      "frontmatter": {
+        "type": "mid-field-synthesis",
+        "range": "P001-P0022",
+        "last_updated": "2026-04-29",
+        "raw_read_policy": "No raw reread; based on compiled wiki pages only.",
+        "source_pages": [
+          ".wiki-schema.md",
+          "purpose.md",
+          "research-agenda.md",
+          "index.md",
+          "wiki/synthesis/source-quality-audit-2026-04-29.md",
+          "wiki/synthesis/concept-consolidation-audit-2026-04-29.md",
+          "wiki/field/field-map.md",
+          "wiki/field/shared-assumptions.md",
+          "wiki/gaps/confirmed-gaps.md",
+          "wiki/gaps/open-questions.md",
+          "wiki/comparisons/merging-control-baselines.md",
+          "wiki/concepts/"
+        ],
+        "confidence": "medium"
+      },
+      "links": [
+        "wiki/synthesis/concept-consolidation-audit-2026-04-29",
+        "wiki/synthesis/source-quality-audit-2026-04-29"
+      ]
+    }
+  ],
+  "summary": {
+    "total_pages": 45,
+    "by_type": {
+      "comparison": 1,
+      "concept": 15,
+      "concept-consolidation-audit": 1,
+      "confirmed-gaps": 1,
+      "field-map": 1,
+      "hypothesis": 1,
+      "mid-field-synthesis": 1,
+      "open-questions": 1,
+      "paper": 21,
+      "research-frontier": 1,
+      "shared-assumptions": 1
+    },
+    "paths_by_type": {
+      "comparison": [
+        "wiki/comparisons/merging-control-baselines.md"
+      ],
+      "concept": [
+        "wiki/concepts/calibrated-gap-selection-lane-balance-control.md",
+        "wiki/concepts/cav-mixed-traffic-impact-review.md",
+        "wiki/concepts/closed-form-optimal-merging.md",
+        "wiki/concepts/consensus-based-mixed-traffic-merging.md",
+        "wiki/concepts/dcoma-dynamic-cooperative-merging-assistant.md",
+        "wiki/concepts/dual-module-ppo-heterogeneous-onramp-control.md",
+        "wiki/concepts/field-experimental-communication-delay-cav-merging.md",
+        "wiki/concepts/flexible-control-barrier-function-merging.md",
+        "wiki/concepts/flexible-merging-positions.md",
+        "wiki/concepts/flow-level-multilane-comc.md",
+        "wiki/concepts/hierarchical-sequence-speed-adaptation-control.md",
+        "wiki/concepts/integrated-longitudinal-lateral-dnmpc-merging.md",
+        "wiki/concepts/integrated-minlp-merging-sequence-trajectory.md",
+        "wiki/concepts/mixed-traffic-multilane-cormc.md",
+        "wiki/concepts/vts-drl-ocp-onramp-merging.md"
+      ],
+      "concept-consolidation-audit": [
+        "wiki/synthesis/concept-consolidation-audit-2026-04-29.md"
+      ],
+      "confirmed-gaps": [
+        "wiki/gaps/confirmed-gaps.md"
+      ],
+      "field-map": [
+        "wiki/field/field-map.md"
+      ],
+      "hypothesis": [
+        "wiki/hypotheses/index.md"
+      ],
+      "mid-field-synthesis": [
+        "wiki/synthesis/mid-field-synthesis-P001-P0022.md"
+      ],
+      "open-questions": [
+        "wiki/gaps/open-questions.md"
+      ],
+      "paper": [
+        "wiki/papers/P001-2022-Tang-A-novel-hierarchical-cooperative-merging-control.md",
+        "wiki/papers/P0010-2025-Choi-Cooperative-Merging-Mixed-Traffic.md",
+        "wiki/papers/P0011-2022-Jing-Integrated-Longitudinal-Lateral-Merging.md",
+        "wiki/papers/P0012-2022-Zhu-Flow-level-Coordination-Multilane-Merging.md",
+        "wiki/papers/P0014-2025-Yang-Dual-Module-Cooperative-Control-On-Ramp.md",
+        "wiki/papers/P0015-2025-Yang-Cooperative-Control-Heterogeneous-Traffic.md",
+        "wiki/papers/P0016-2025-Wang-Hierarchical-Cooperative-On-Ramp-Merging.md",
+        "wiki/papers/P0017-2024-Lu-Fast-and-Adaptive-Perception-and-Planning.md",
+        "wiki/papers/P0018-2025-Liu-Hierarchical-Cooperative-Constrained-Control.md",
+        "wiki/papers/P0019-2024-Pan-CAV-Impacts-Mixed-Traffic-Flow-Review.md",
+        "wiki/papers/P002-2023-Hou-Cooperative-On-Ramp-Merging-Control.md",
+        "wiki/papers/P0020-2024-Muzahid-Optimizing-On-Ramp-Merging-DRL-OCP.md",
+        "wiki/papers/P0021-2024-Li-DCoMA-Dynamic-Coordinative-Merging-Assistant.md",
+        "wiki/papers/P0022-2021-Chen-Hierarchical-Model-Based-Cooperative-Merging.md",
+        "wiki/papers/P003-2025-Jing-Hierarchical-Cooperative-Merging-Control.md",
+        "wiki/papers/P004-2025-Wang-Cooperative-Control-CAVs-Merging.md",
+        "wiki/papers/P005-2017-Rios-Torres-Automated-Cooperative-Merging.md",
+        "wiki/papers/P006-2023-Liu-Safety-Critical-and-Flexible-Cooperative-Merging.md",
+        "wiki/papers/P007-2024-Chen-Integrated-Approach-Optimal-Merging.md",
+        "wiki/papers/P008-2025-Zhang-Cooperative-Control-Mixed-Vehicles.md",
+        "wiki/papers/P009-2024-Li-Experimental-assessment-communication-delay.md"
+      ],
+      "research-frontier": [
+        "wiki/field/research-frontier.md"
+      ],
+      "shared-assumptions": [
+        "wiki/field/shared-assumptions.md"
+      ]
+    }
+  }
+}

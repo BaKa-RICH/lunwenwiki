@@ -14,6 +14,8 @@ For Codex, this `AGENTS.md` is the core rule source.
 
 If `.wiki-schema.md` exists, treat it only as a legacy or migration reference. Do not require reading `.wiki-schema.md` before normal Codex workflows unless the user explicitly asks for legacy comparison or migration audit.
 
+`skills/research-wiki/` and `skills/research-argumentation/` are repo-native operation guides. They may route workflows and provide templates, but they do not override this file. Runtime manifests and reports under `workspace/` are tool outputs, not durable research conclusions.
+
 ## Required Startup Reads
 
 Before any workflow, read these files in order:
@@ -29,6 +31,10 @@ Then use `index.md` to locate the minimal relevant `wiki/` pages for the user's 
 
 - `raw/` is the source layer. Treat it as read-only by default.
 - `wiki/` is the compiled research memory layer. You may update it when the user asks for a write workflow or confirms that a durable conclusion should be written back.
+- `skills/` is the repo-native skill source layer. It documents workflows and templates; do not treat it as compiled research memory.
+- `schema/` documents lifecycle, frontmatter, and citation/evidence policy for linting and workflow consistency.
+- `scripts/` contains mechanical helpers for scanning, indexing, linting, and status. Scripts must not make research decisions or create HYP / EXP brief / DEC objects.
+- `workspace/` contains rebuildable manifests, reports, and caches. Do not cite it as durable evidence unless the user explicitly asks for a tool-output audit.
 - `index.md` must be updated after adding or significantly changing important pages.
 - `log.md` is append-only. Append new operation records; do not rewrite history.
 - Use relative paths inside the wiki. Do not write absolute local paths into wiki pages, frontmatter, `source_path`, or logs.
@@ -45,6 +51,7 @@ Then use `index.md` to locate the minimal relevant `wiki/` pages for the user's 
 - Experiment facts belong in `wiki/experiment-reports/`; final research decisions belong in `wiki/decisions/`.
 - Failed ideas, failed experiments, and refuted proofs are research assets. Archive by default; delete only after user confirmation.
 - Do not put full experiment code inside this research wiki.
+- Argumentation helpers may improve mechanism reasoning, proof wording, strongest objections, and claim audits, but they must not change evidence strength or convert unverified claims into supported conclusions.
 
 ## Object Lifecycles
 

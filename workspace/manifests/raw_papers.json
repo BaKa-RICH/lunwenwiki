@@ -1,0 +1,128 @@
+[
+  {
+    "path": "raw/papers/P001-2022-Tang-A-novel-hierarchical-cooperative-merging-control.md",
+    "id_guess": "P001",
+    "name": "P001-2022-Tang-A-novel-hierarchical-cooperative-merging-control.md",
+    "size_bytes": 144442
+  },
+  {
+    "path": "raw/papers/P0010-2025-Choi-Cooperative-Merging-Mixed-Traffic.md",
+    "id_guess": "P0010",
+    "name": "P0010-2025-Choi-Cooperative-Merging-Mixed-Traffic.md",
+    "size_bytes": 93420
+  },
+  {
+    "path": "raw/papers/P0011-2022-Jing-Integrated-Longitudinal-Lateral-Merging.md",
+    "id_guess": "P0011",
+    "name": "P0011-2022-Jing-Integrated-Longitudinal-Lateral-Merging.md",
+    "size_bytes": 90883
+  },
+  {
+    "path": "raw/papers/P0012-2022-Zhu-Flow-level-Coordination-Multilane-Merging.md",
+    "id_guess": "P0012",
+    "name": "P0012-2022-Zhu-Flow-level-Coordination-Multilane-Merging.md",
+    "size_bytes": 61511
+  },
+  {
+    "path": "raw/papers/P0014-2025-Yang-Dual-Module-Cooperative-Control-On-Ramp.md",
+    "id_guess": "P0014",
+    "name": "P0014-2025-Yang-Dual-Module-Cooperative-Control-On-Ramp.md",
+    "size_bytes": 120614
+  },
+  {
+    "path": "raw/papers/P0015-2025-Yang-Cooperative-Control-Heterogeneous-Traffic.md",
+    "id_guess": "P0015",
+    "name": "P0015-2025-Yang-Cooperative-Control-Heterogeneous-Traffic.md",
+    "size_bytes": 167489
+  },
+  {
+    "path": "raw/papers/P0016-2025-Wang-Hierarchical-Cooperative-On-Ramp-Merging.md",
+    "id_guess": "P0016",
+    "name": "P0016-2025-Wang-Hierarchical-Cooperative-On-Ramp-Merging.md",
+    "size_bytes": 43988
+  },
+  {
+    "path": "raw/papers/P0017-2024-Lu-Fast-and-Adaptive-Perception-and-Planning.md",
+    "id_guess": "P0017",
+    "name": "P0017-2024-Lu-Fast-and-Adaptive-Perception-and-Planning.md",
+    "size_bytes": 74486
+  },
+  {
+    "path": "raw/papers/P0018-2025-liu-hcmcc-multi-lane-merging.md",
+    "id_guess": "P0018",
+    "name": "P0018-2025-liu-hcmcc-multi-lane-merging.md",
+    "size_bytes": 120876
+  },
+  {
+    "path": "raw/papers/P0019-2024-Pan-CAV-Impacts-Mixed-Traffic-Flow-Review.md",
+    "id_guess": "P0019",
+    "name": "P0019-2024-Pan-CAV-Impacts-Mixed-Traffic-Flow-Review.md",
+    "size_bytes": 100995
+  },
+  {
+    "path": "raw/papers/P002-2023-Hou-Cooperative-On-Ramp-Merging-Control.md",
+    "id_guess": "P002",
+    "name": "P002-2023-Hou-Cooperative-On-Ramp-Merging-Control.md",
+    "size_bytes": 109696
+  },
+  {
+    "path": "raw/papers/P0020-2024-Muzahid-Optimizing-On-Ramp-Merging-DRL-OCP.md",
+    "id_guess": "P0020",
+    "name": "P0020-2024-Muzahid-Optimizing-On-Ramp-Merging-DRL-OCP.md",
+    "size_bytes": 105533
+  },
+  {
+    "path": "raw/papers/P0021-2024-Li-DCoMA-Dynamic-Coordinative-Merging-Assistant.md",
+    "id_guess": "P0021",
+    "name": "P0021-2024-Li-DCoMA-Dynamic-Coordinative-Merging-Assistant.md",
+    "size_bytes": 131692
+  },
+  {
+    "path": "raw/papers/P0022-2021-chen-cooperative-merging-cavs.md",
+    "id_guess": "P0022",
+    "name": "P0022-2021-chen-cooperative-merging-cavs.md",
+    "size_bytes": 95339
+  },
+  {
+    "path": "raw/papers/P003-2025-Jing-Hierarchical-Cooperative-Merging-Control.md",
+    "id_guess": "P003",
+    "name": "P003-2025-Jing-Hierarchical-Cooperative-Merging-Control.md",
+    "size_bytes": 132636
+  },
+  {
+    "path": "raw/papers/P004-2025-Wang-Cooperative-Control-CAVs-Merging.md",
+    "id_guess": "P004",
+    "name": "P004-2025-Wang-Cooperative-Control-CAVs-Merging.md",
+    "size_bytes": 87019
+  },
+  {
+    "path": "raw/papers/P005-2017-Rios-Torres-Automated-Cooperative-Merging.md",
+    "id_guess": "P005",
+    "name": "P005-2017-Rios-Torres-Automated-Cooperative-Merging.md",
+    "size_bytes": 59383
+  },
+  {
+    "path": "raw/papers/P006-2023-Liu-Safety-Critical-and-Flexible-Cooperative-Merging.md",
+    "id_guess": "P006",
+    "name": "P006-2023-Liu-Safety-Critical-and-Flexible-Cooperative-Merging.md",
+    "size_bytes": 97188
+  },
+  {
+    "path": "raw/papers/P007-2024-Chen-Integrated-Approach-Optimal-Merging.md",
+    "id_guess": "P007",
+    "name": "P007-2024-Chen-Integrated-Approach-Optimal-Merging.md",
+    "size_bytes": 104031
+  },
+  {
+    "path": "raw/papers/P008-2025-Zhang-Cooperative-Control-Mixed-Vehicles.md",
+    "id_guess": "P008",
+    "name": "P008-2025-Zhang-Cooperative-Control-Mixed-Vehicles.md",
+    "size_bytes": 106789
+  },
+  {
+    "path": "raw/papers/P009-2024-Li-Experimental-assessment-communication-delay.md",
+    "id_guess": "P009",
+    "name": "P009-2024-Li-Experimental-assessment-communication-delay.md",
+    "size_bytes": 65491
+  }
+]

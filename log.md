@@ -178,3 +178,4 @@ append_only: true
 ## 2026-05-03
 
 - 完成 Codex-native legacy cleanup：更新 `index.md` 和 `research-agenda.md`，使普通 Codex 启动入口收敛到 `AGENTS.md`；`.wiki-schema.md` 保留为 legacy/reference，未删除、未归档；未读取 `raw/`；未创建 HYP、EXP brief、EXP report 或 DEC。
+- 完成 P0/P1 research-wiki 闭环工具层初始化：新增 `skills/research-wiki/`、`skills/research-argumentation/`、`schema/`、`scripts/` 和 `workspace/` 运行时输出约定；轻度更新 `AGENTS.md` 与 `index.md`，明确 skill/schema/scripts/workspace 的边界；未修改 `raw/`，未创建 HYP、EXP brief、EXP report 或 DEC。

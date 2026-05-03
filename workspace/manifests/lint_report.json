@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-03",
+  "summary": {
+    "paper_source_issues": 0,
+    "raw_papers_without_cards": 0,
+    "broken_wiki_links": 1,
+    "lifecycle_issues": 0,
+    "possible_index_omissions": 0
+  },
+  "findings": {
+    "paper_source_issues": [],
+    "raw_papers_without_cards": [],
+    "broken_wiki_links": [
+      {
+        "path": "wiki/synthesis/mid-field-synthesis-P001-P0022.md",
+        "link": "wiki/synthesis/source-quality-audit-2026-04-29"
+      }
+    ],
+    "lifecycle_issues": [],
+    "possible_index_omissions": []
+  }
+}

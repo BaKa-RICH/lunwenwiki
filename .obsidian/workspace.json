@@ -157,13 +157,23 @@
               "icon": "lucide-list",
               "title": "大纲"
             }
+          },
+          {
+            "id": "9c0c98a837425e57",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 390.5
+    "width": 590.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,11 +183,48 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:新建数据库": false
+      "bases:新建数据库": false,
+      "obsidian42-brat:BRAT": false,
+      "claudian:Open Claudian": false
     }
   },
-  "active": "39104a93f40dff4c",
+  "active": "9c0c98a837425e57",
   "lastOpenFiles": [
-    "AGENTS.md"
+    "scripts/__pycache__/status_report.cpython-312.pyc",
+    "scripts/__pycache__/lint_wiki.cpython-312.pyc",
+    "scripts/__pycache__/rebuild_indexes.cpython-312.pyc",
+    "scripts/__pycache__/scan_sources.cpython-312.pyc",
+    "workspace/cache",
+    "workspace/reports/lint/lint-2026-05-03.md",
+    "workspace/reports/lint",
+    "workspace/manifests/lint_report.json",
+    "workspace/reports/status/status-2026-05-03.md",
+    "workspace/reports/status",
+    "workspace/reports",
+    "workspace/manifests/wiki_index.json",
+    "workspace/manifests/lifecycle_objects.json",
+    "schema/citation_policy.md",
+    "schema/page_frontmatter.schema.md",
+    "schema/lifecycle.schema.md",
+    "skills/research-argumentation/assets/templates/claim-audit.md",
+    "skills/research-argumentation/assets/templates/strongest-objection.md",
+    "skills/research-argumentation/assets/templates/proof-chain.md",
+    "skills/research-argumentation/assets/templates/mechanism-argument.md",
+    "skills/research-argumentation/references/workflows-claim-discipline.md",
+    "skills/research-argumentation/references/workflows-reviewer-objection.md",
+    "skills/research-argumentation/references/workflows-proof-writing.md",
+    "skills/research-argumentation/references/workflows-mechanism-argument.md",
+    "skills/research-argumentation/SKILL.md",
+    "skills/research-wiki/assets/templates/decision.md",
+    "skills/research-wiki/assets/templates/exp-report.md",
+    "skills/research-wiki/assets/templates/exp-brief.md",
+    "skills/research-wiki/assets/templates/proof-sketch.md",
+    "skills/research-wiki/assets/templates/hyp-card.md",
+    "skills/research-wiki/assets/templates/idea-survey.md",
+    "skills/research-wiki/assets/templates/idea-candidate-batch.md",
+    "skills/research-wiki/assets/templates/field-synthesis.md",
+    "skills/research-wiki/assets/templates/paper-memory-card.md",
+    "skills/research-wiki/references/output-formats.md",
+    "skills/research-wiki/references/schema.md"
   ]
 }

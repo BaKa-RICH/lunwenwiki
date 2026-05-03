@@ -1,0 +1,180 @@
+# Research Wiki Log
+
+append_only: true
+
+## 2026-04-26
+
+- 初始化 `research-wiki/` 目录结构。
+- 创建 `.wiki-schema.md`、`purpose.md`、`research-agenda.md`、`index.md`、`log.md`。
+- 创建初始 field、gaps 和 hypotheses 看板页面。
+- 初始化时未导入论文、笔记或实验结果。
+- Ingest P001：读取 `raw/papers/P001-2022-Tang-A-novel-hierarchical-cooperative-merging-control.md`，创建 `wiki/papers/P001-2022-Tang-A-novel-hierarchical-cooperative-merging-control.md`。
+- 创建概念页 `wiki/concepts/flexible-merging-positions.md`，记录可变合流位置机制线索。
+- 更新 `wiki/field/field-map.md`、`wiki/field/shared-assumptions.md`、`wiki/gaps/open-questions.md` 和 `index.md`；未创建正式 HYP。
+- 记录 P001 原始 Markdown 含多处 MinerU 外链图片，后续写作审计前建议本地化到 `raw/assets/P001/`。
+- 更新 `research-agenda.md`，标记初始化已从 P001 开始。
+- 更新 `wiki/papers/P001-2022-Tang-A-novel-hierarchical-cooperative-merging-control.md`：末尾追加 `10. 回查触发点` 和 `11. 关键原文位置`，并同步更新 `index.md`。
+- Ingest P002：读取 `raw/papers/P002-2023-Hou-Cooperative-On-Ramp-Merging-Control.md`，创建 `wiki/papers/P002-2023-Hou-Cooperative-On-Ramp-Merging-Control.md`。
+- 创建概念页 `wiki/concepts/mixed-traffic-multilane-cormc.md`，记录 mixed traffic、多车道、APS/CUC 和 CHV compliance 机制线索。
+- 更新 `index.md`；未创建正式 HYP。
+- 记录 P002 原始 Markdown 含多处 MinerU 外链图片，后续写作审计前建议本地化到 `raw/assets/P002/`。
+- Ingest P003：读取 `raw/papers/P003-2025-Jing-Hierarchical-Cooperative-Merging-Control.md`，创建 `wiki/papers/P003-2025-Jing-Hierarchical-Cooperative-Merging-Control.md`。
+- 创建概念页 `wiki/concepts/consensus-based-mixed-traffic-merging.md`，记录 merging sequencing、consensus controller、communication delay 和 platoon stability 机制线索。
+- 更新 `index.md`；未创建正式 HYP。
+- 记录 P003 原始 Markdown 含大量 MinerU 外链图片，后续写作审计前建议本地化到 `raw/assets/P003/`。
+- Ingest P004：读取 `raw/papers/P004-2025-Wang-Cooperative-Control-CAVs-Merging.md`，创建 `wiki/papers/P004-2025-Wang-Cooperative-Control-CAVs-Merging.md`。
+- 创建概念页 `wiki/concepts/multi-area-dual-lane-ramp-control.md`，记录多区域控制、主线提前换道、双车道匝道 virtual platoon 和滚动轨迹优化线索。
+- 更新 `index.md`；未创建正式 HYP。
+- 记录 P004 原始 Markdown 含多处 MinerU 外链图片，后续写作审计前建议本地化到 `raw/assets/P004/`。
+- Ingest P005：读取 `raw/papers/P005-2017-Rios-Torres-Automated-Cooperative-Merging.md`，创建 `wiki/papers/P005-2017-Rios-Torres-Automated-Cooperative-Merging.md`。
+- 创建概念页 `wiki/concepts/closed-form-optimal-merging.md`，记录 FIFO、安全时间递归、Hamiltonian 闭式解和燃耗优化线索。
+- 更新 `index.md`；未创建正式 HYP。
+- 记录 P005 原始 Markdown 含多处 MinerU 外链图片，后续写作审计前建议本地化到 `raw/assets/P005/`。
+- 完成 P001-P005 mini-synthesis：创建 `wiki/synthesis/mini-synthesis-P001-P005.md`。
+- Mini-synthesis 更新 `wiki/field/field-map.md`、`wiki/field/shared-assumptions.md`、`wiki/gaps/confirmed-gaps.md`、`wiki/gaps/open-questions.md` 和 `index.md`；未创建正式 HYP。
+- 更新 `research-agenda.md`，标记 P001-P005 已完成 ingest 和 mini-synthesis。
+- 复核 P001-P005 mini-synthesis：仅读取 paper cards、concepts、field、gaps、index 和 log，未回读 raw 原文。
+- 更新 `wiki/synthesis/mini-synthesis-P001-P005.md`：补充方法路线、共同假设、推进/互补/矛盾关系、confirmed gap 与 open question 分层、candidate idea 线索。
+- 更新 `wiki/field/field-map.md`、`wiki/field/shared-assumptions.md`、`wiki/gaps/confirmed-gaps.md`、`wiki/gaps/open-questions.md` 和 `index.md`；将“统一框架是否缺失”保留为 open question，未写入 confirmed gap；未创建正式 HYP。
+- 结束 Batch 01 初始化导入：创建 `wiki/synthesis/batch-01-summary.md`，范围为 P001-P005。
+- Batch 01 summary 仅读取已编译的 paper cards、concepts、field、gaps、index 和 log；未回读 raw 原文。
+- 同步更新 `wiki/field/field-map.md`、`wiki/field/shared-assumptions.md`、`wiki/gaps/confirmed-gaps.md`、`wiki/gaps/open-questions.md` 和 `index.md`；未创建正式 HYP。
+
+## 2026-04-28
+
+- 创建 `wiki/comparisons/merging-control-baselines.md`，承接 Batch 01 中的 FIFO/FCFS、closed-form optimal control、MCTS-DA、APS/CUC、shortest-path merging sequencing、consensus controller、rolling trajectory optimization 和 multi-area control 对比。
+- 更新 `research-agenda.md`：标记 Batch 01 已完成，下一阶段为 P006-P010，并记录 Batch 02 重点审查方向。
+- 更新 `wiki/gaps/confirmed-gaps.md`：为 GAP-0001 增加后续拆解方向，保持其为高层 confirmed gap，不直接创建 HYP。
+- 更新 `index.md`。
+- 本次优化未写回 query synthesis，未创建正式 HYP、EXP brief 或 DEC。
+- Ingest P006：读取 `raw/papers/P006-2023-Liu-Safety-Critical-and-Flexible-Cooperative-Merging.md`，创建 `wiki/papers/P006-2023-Liu-Safety-Critical-and-Flexible-Cooperative-Merging.md`。
+- 创建概念页 `wiki/concepts/flexible-control-barrier-function-merging.md`，记录 FPM-FCBF、variable time headway、CBF/CLF-QP 和 receding horizon mixed-traffic safety control 线索。
+- 更新 `wiki/comparisons/merging-control-baselines.md` 和 `index.md`；未创建正式 HYP。
+- 记录 P006 原始 Markdown 含多处 MinerU 外链图片，后续写作审计前建议本地化到 `raw/assets/P006/`。
+- Ingest P007：分块读取 `raw/papers/P007-2024-Chen-Integrated-Approach-Optimal-Merging.md`，创建 `wiki/papers/P007-2024-Chen-Integrated-Approach-Optimal-Merging.md`。
+- 创建概念页 `wiki/concepts/integrated-minlp-merging-sequence-trajectory.md`，记录 integrated MINLP、merge-in gap selection、Bézier continuous safety、sequential search 和 iterative LP 线索。
+- 更新 `wiki/comparisons/merging-control-baselines.md` 和 `index.md`；未创建正式 HYP。
+- 记录 P007 原始 Markdown 含多处 MinerU 外链图片，后续写作审计前建议本地化到 `raw/assets/P007/`。
+- Ingest P008：分块读取 `raw/papers/P008-2025-Zhang-Cooperative-Control-Mixed-Vehicles.md`，创建 `wiki/papers/P008-2025-Zhang-Cooperative-Control-Mixed-Vehicles.md`。
+- 创建概念页 `wiki/concepts/transformer-adaptive-mixed-vehicle-merging-control.md`，记录 BDM-AWM、NSGA-II Pareto frontier、Transformer adaptive weighting、CAV/HV 与 car/truck mixed vehicle 控制线索。
+- 更新 `wiki/comparisons/merging-control-baselines.md` 和 `index.md`；未创建正式 HYP。
+- 记录 P008 原始 Markdown 含多处 MinerU 外链图片，后续写作审计前建议本地化到 `raw/assets/P008/`。
+- Ingest P009：读取 `raw/papers/P009-2024-Li-Experimental-assessment-communication-delay.md`，创建 `wiki/papers/P009-2024-Li-Experimental-assessment-communication-delay.md`。
+- 创建概念页 `wiki/concepts/field-experimental-communication-delay-cav-merging.md`，记录 ACM vehicle-in-the-loop、communication delay estimation、speed volatility、H-LSTM 和 energy consumption field evidence。
+- 更新 `wiki/comparisons/merging-control-baselines.md` 和 `index.md`；未创建正式 HYP。
+- 记录 P009 原始 Markdown 含多处 MinerU 外链图片，后续写作审计前建议本地化到 `raw/assets/P009/`。
+- Ingest P0010：读取 `raw/papers/P0010-2025-Choi-Cooperative-Merging-Mixed-Traffic.md`，创建 `wiki/papers/P0010-2025-Choi-Cooperative-Merging-Mixed-Traffic.md`。
+- 创建概念页 `wiki/concepts/strategic-cav-influence-on-hdv-merging.md`，记录 strategic slowdown、cooperation candidate set、arrival-time dynamic optimization 和 mixed traffic CAV-HDV influence 线索。
+- 更新 `wiki/comparisons/merging-control-baselines.md` 和 `index.md`；未创建正式 HYP。
+- 记录 P0010 原始 Markdown 含多处 MinerU 外链图片，后续写作审计前建议本地化到 `raw/assets/P0010/`。
+- 完成 P006-P0010 mini-synthesis：创建 `wiki/synthesis/mini-synthesis-P006-P0010.md`。
+- Mini-synthesis 仅读取 paper cards、concepts、comparison、field 和 gaps，未回读 P006-P0010 raw 全文。
+- 更新 `wiki/field/field-map.md`、`wiki/field/shared-assumptions.md`、`wiki/gaps/confirmed-gaps.md`、`wiki/gaps/open-questions.md` 和 `index.md`；新增 GAP-0004 delay-aware robustness / field validation 不足；未创建正式 HYP。
+- 结束 Batch 02 初始化导入：创建 `wiki/synthesis/batch-02-summary.md`，范围为 P006-P0010。
+- Batch 02 summary 仅读取已编译的 paper cards、concepts、field、gaps、comparison、index 和 log；未回读 P006-P0010 raw 原文。
+- 同步更新 `wiki/field/field-map.md`、`wiki/field/shared-assumptions.md`、`wiki/gaps/confirmed-gaps.md`、`wiki/gaps/open-questions.md` 和 `index.md`；confirmed gaps 维持 GAP-0001 至 GAP-0004；candidate idea 仅保留线索；未创建正式 HYP。
+
+## 2026-04-29
+
+- Ingest P0011：读取 `raw/papers/P0011-2022-Jing-Integrated-Longitudinal-Lateral-Merging.md`，创建 `wiki/papers/P0011-2022-Jing-Integrated-Longitudinal-Lateral-Merging.md`。
+- 创建概念页 `wiki/concepts/integrated-longitudinal-lateral-dnmpc-merging.md`，记录纵向最优控制、sigmoid 横向轨迹、DNMPC、driving safety field 和 CarSim/Simulink 执行验证线索。
+- 更新 `wiki/comparisons/merging-control-baselines.md`、`wiki/gaps/open-questions.md` 和 `index.md`；新增 OQ-0016 与 execution-aware candidate 线索；未创建正式 HYP。
+- 记录 P0011 原始 Markdown 含多处 MinerU 外链图片，后续写作审计前建议本地化到 `raw/assets/P0011/`。
+- Ingest P0012：读取 `raw/papers/P0012-2022-Zhu-Flow-level-Coordination-Multilane-Merging.md`，创建 `wiki/papers/P0012-2022-Zhu-Flow-level-Coordination-Multilane-Merging.md`。
+- 创建概念页 `wiki/concepts/flow-level-multilane-comc.md`，记录 proactive gap creation、ramp platooning、one-sided lane-change prohibition、shockwave constraint 和 VISSIM flow-level validation 线索。
+- 更新 `wiki/comparisons/merging-control-baselines.md`、`wiki/gaps/open-questions.md` 和 `index.md`；新增 OQ-0017 与 flow-level CoMC + safety-critical execution candidate 线索；未创建正式 HYP。
+- 记录 P0012 原始 Markdown 含多处 MinerU 外链图片，后续写作审计前建议本地化到 `raw/assets/P0012/`。
+- Ingest P0013：分块读取 `raw/papers/P0013-2025-Jing-Hierarchical-Cooperative-Merging-Control.md`，创建 `wiki/papers/P0013-2025-Jing-Hierarchical-Cooperative-Merging-Control.md`。
+- 确认 P0013 与既有 `wiki/papers/P003-2025-Jing-Hierarchical-Cooperative-Merging-Control.md` 为同一论文重复编号；为保持本轮顺序和可追踪性，保留独立 P0013 paper card，但不重复创建新概念页。
+- 更新 `wiki/concepts/consensus-based-mixed-traffic-merging.md`、`wiki/comparisons/merging-control-baselines.md` 和 `index.md`；未创建正式 HYP。
+- 记录 P0013 原始 Markdown 含大量 MinerU 外链图片，后续写作审计前建议本地化到 `raw/assets/P0013/`。
+- Ingest P0014：分块读取 `raw/papers/P0014-2025-Yang-Dual-Module-Cooperative-Control-On-Ramp.md`，创建 `wiki/papers/P0014-2025-Yang-Dual-Module-Cooperative-Control-On-Ramp.md`。
+- 创建概念页 `wiki/concepts/dual-module-ppo-heterogeneous-onramp-control.md`，记录 MC/LC dual-module PPO、TTC/TET reward、low-penetration heterogeneous traffic 和 transferability 线索。
+- 更新 `wiki/comparisons/merging-control-baselines.md`、`wiki/gaps/open-questions.md` 和 `index.md`；新增 OQ-0018 与 RL proposal + safety filter candidate 线索；未创建正式 HYP。
+- 记录 P0014 原始 Markdown 含大量 MinerU 外链图片，后续写作审计前建议本地化到 `raw/assets/P0014/`。
+- Ingest P0015：分块读取 `raw/papers/P0015-2025-Yang-Cooperative-Control-Heterogeneous-Traffic.md`，创建 `wiki/papers/P0015-2025-Yang-Cooperative-Control-Heterogeneous-Traffic.md`。
+- 创建概念页 `wiki/concepts/calibrated-gap-selection-lane-balance-control.md`，记录 reliable/unreliable vehicle bond、gap selection、lane balance、exiD calibration、capacity drop 和 ALINEA/PI-ALINEA 对比线索。
+- 更新 `wiki/comparisons/merging-control-baselines.md`、`wiki/gaps/open-questions.md` 和 `index.md`；新增 OQ-0019 与 capacity-drop-aware VB gap selection candidate 线索；未创建正式 HYP。
+- 记录 P0015 原始 Markdown 含大量 MinerU 外链图片，后续写作审计前建议本地化到 `raw/assets/P0015/`。
+- Ingest P0016：读取 `raw/papers/P0016-2025-Wang-Hierarchical-Cooperative-On-Ramp-Merging.md`，创建 `wiki/papers/P0016-2025-Wang-Hierarchical-Cooperative-On-Ramp-Merging.md`。
+- 创建概念页 `wiki/concepts/hcomc-two-lane-mixed-traffic-control.md`，记录 modified virtual vehicle、Stackelberg game、NSGA-II、longitudinal/lateral cooperation switching 和 two-lane mixed traffic 线索。
+- 更新 `wiki/comparisons/merging-control-baselines.md`、`wiki/gaps/open-questions.md` 和 `index.md`；新增 OQ-0020 与 longitudinal-vs-lateral cooperation switch candidate 线索；未创建正式 HYP。
+- 记录 P0016 原始 Markdown 含多处 MinerU 外链图片，后续写作审计前建议本地化到 `raw/assets/P0016/`。
+- 完成 P0011-P0016 mini-synthesis：创建 `wiki/synthesis/mini-synthesis-P0011-P0016.md`。
+- Mini-synthesis 仅读取 paper cards、concepts、comparison、field、gaps、index 和 log；未回读 P0011-P0016 raw 原文。
+- 更新 `wiki/field/field-map.md`、`wiki/field/shared-assumptions.md`、`wiki/gaps/confirmed-gaps.md`、`wiki/gaps/open-questions.md` 和 `index.md`；confirmed gaps 维持 GAP-0001 至 GAP-0004，强化 GAP-0002/GAP-0004，未新增 confirmed gap。
+- Candidate idea 仅保留线索，包括 multi-scale merging controller benchmark、capacity-drop-aware VB gap selection、RL proposal + safety filter 和 longitudinal-vs-lateral cooperation switch；未创建正式 HYP。
+- 结束 Batch 03 初始化导入：创建 `wiki/synthesis/batch-03-summary.md`，范围为 P0011-P0016。
+- Batch 03 summary 仅读取已编译的 paper cards、concepts、field、gaps、comparison、index 和 log；未回读 P0011-P0016 raw 原文。
+- 同步更新 `wiki/field/field-map.md`、`wiki/field/shared-assumptions.md`、`wiki/gaps/confirmed-gaps.md`、`wiki/gaps/open-questions.md` 和 `index.md`；confirmed gaps 维持 GAP-0001 至 GAP-0004；candidate idea 仅保留线索；未创建正式 HYP。
+- Ingest P0017：读取 `raw/papers/P0017-2024-Lu-Fast-and-Adaptive-Perception-and-Planning.md`，创建 `wiki/papers/P0017-2024-Lu-Fast-and-Adaptive-Perception-and-Planning.md`。
+- 创建概念页 `wiki/concepts/covariance-adaptive-dynamic-obstacle-planning.md`，记录点云动态分割、Kalman covariance adaptation、prediction uncertainty 和 adaptive replanning 的外部机制线索。
+- 更新 `wiki/gaps/open-questions.md` 和 `index.md`；新增 OQ-0021 与 prediction-uncertainty-aware merging fallback candidate 线索；未创建正式 HYP。
+- 记录 P0017 原始 Markdown 含大量 MinerU 外链图片和 supplementary video，后续写作审计前建议本地化到 `raw/assets/P0017/`。
+- Ingest P0018：分块读取 `raw/papers/P0018-2025-liu-hcmcc-multi-lane-merging.md`，创建 `wiki/papers/P0018-2025-Liu-Hierarchical-Cooperative-Constrained-Control.md`。
+- 创建概念页 `wiki/concepts/hcmcc-multilane-mixed-traffic-control.md`，记录 HCMCC-L1/HCMCC-L0/SHCMCC-L0、Lane 2 CAV assistance、CCU 和 LCMPC-PTO 线索。
+- 更新 `wiki/comparisons/merging-control-baselines.md`、`wiki/gaps/open-questions.md` 和 `index.md`；新增 HCMCC MILP + LCMPC-PTO multilane control baseline、OQ-0022 与 Lane-2-assistance candidate 线索；未创建正式 HYP。
+- 记录 P0018 原始 Markdown 含大量 MinerU 外链图片，后续写作审计前建议本地化到 `raw/assets/P0018/`。
+- Ingest P0019：分块读取 `raw/papers/P0019-2024-li-dcoma-on-ramp-merging.md`，创建 `wiki/papers/P0019-2024-Pan-CAV-Impacts-Mixed-Traffic-Flow-Review.md`。
+- 注意：P0019 本地 raw 文件名与正文题名/作者不一致；正文实际为 `The impacts of connected autonomous vehicles on mixed traffic flow: A comprehensive review`，已在 paper card 记录 metadata_todo。
+- 创建概念页 `wiki/concepts/cav-mixed-traffic-impact-review.md`，记录 CAV 对 mixed traffic flow 的 efficiency、stability、safety、environment、cybersecurity 和 policy 影响框架。
+- 更新 `wiki/gaps/open-questions.md` 和 `index.md`；新增 OQ-0023 与 multi-objective merging evaluation minimal set candidate 线索；未创建正式 HYP。
+- 记录 P0019 原始 Markdown 含图片外链，后续写作审计前建议本地化到 `raw/assets/P0019/`。
+- Ingest P0020：分块读取 `raw/papers/P0020-2024-pan-cavs-mixed-traffic-flow-review.md`，创建 `wiki/papers/P0020-2024-Muzahid-Optimizing-On-Ramp-Merging-DRL-OCP.md`。
+- 注意：P0020 本地 raw 文件名与正文题名/作者不一致；正文实际为 `Optimizing On-Ramp Merging for Connected and Automated Vehicles: A Hierarchical Approach Using Deep Reinforcement Learning and Optimal Control`，已在 paper card 记录 metadata_todo。
+- 创建概念页 `wiki/concepts/vts-drl-ocp-onramp-merging.md`，记录 VTS Yield/Green action、CAE state compression、dueling DQN、OCP/MPC speed control 和 SUMO evaluation 线索。
+- 更新 `wiki/comparisons/merging-control-baselines.md`、`wiki/gaps/open-questions.md` 和 `index.md`；新增 VTS-DRL + OCP speed control baseline、OQ-0024 与 VTS-DRL proposal + safety-critical execution candidate 线索；未创建正式 HYP。
+- 记录 P0020 原始 Markdown 含大量 MinerU 外链图片，后续写作审计前建议本地化到 `raw/assets/P0020/`。
+- Ingest P0021：分块读取 `raw/papers/P0021-2024-li-dcoma-on-ramp-merging (2).md`，创建 `wiki/papers/P0021-2024-Li-DCoMA-Dynamic-Coordinative-Merging-Assistant.md`。
+- 创建概念页 `wiki/concepts/dcoma-dynamic-cooperative-merging-assistant.md`，记录 FD-driven state C、mainline CAV platooning、gap time-series、ramp vehicle motion planning 和 ALINEA/X-ALINEA/Q/CoopMA 对比线索。
+- 更新 `wiki/comparisons/merging-control-baselines.md`、`wiki/gaps/open-questions.md` 和 `index.md`；新增 DCoMA dynamic macro-micro gap creation baseline、OQ-0025 与 FD-driven gap plan + vehicle-level safety filter candidate 线索；未创建正式 HYP。
+- 记录 P0021 原始 Markdown 含大量 MinerU 外链图片，后续写作审计前建议本地化到 `raw/assets/P0021/`。
+- Ingest P0022：读取 `raw/papers/P0022-2021-chen-cooperative-merging-cavs.md`，创建 `wiki/papers/P0022-2021-Chen-Hierarchical-Model-Based-Cooperative-Merging.md`。
+- 创建概念页 `wiki/concepts/hierarchical-sequence-speed-adaptation-control.md`，记录合流顺序、speed-adaptation time `t^p`、tactical/operational layer mismatch、MPC execution 和 fallback 线索。
+- 更新 `wiki/comparisons/merging-control-baselines.md`、`wiki/gaps/open-questions.md` 和 `index.md`；新增 HCA sequence + speed-adaptation timing baseline、OQ-0026 与 timing-aware merging sequence candidate 线索；未创建正式 HYP。
+- 记录 P0022 原始 Markdown 含外链图片和作者照片，后续写作审计前建议本地化到 `raw/assets/P0022/`。
+- Ingest P0023：读取 `raw/papers/P0023-2019-huang-cooperative-ramp-merging-mixed-traffic.md`，创建 `wiki/papers/P0023-2019-Huang-Cooperative-Ramp-Merging-Mixed-Traffic.md`。
+- 创建概念页 `wiki/concepts/bilevel-dp-mixed-traffic-merging.md`，记录 upper-level gap assignment DP、lower-level maneuver DP、CAV/HV controllability cases、Gipps/IDM/EIDM sensitivity 和 cooperative vs non-cooperative 线索。
+- 更新 `wiki/comparisons/merging-control-baselines.md`、`wiki/gaps/open-questions.md` 和 `index.md`；新增 bi-level DP mixed-traffic sequence + maneuver baseline、OQ-0027 与 controllability-aware sequence pruning candidate 线索；未创建正式 HYP。
+- 记录 P0023 原始 Markdown 含大量外链图片且 OCR 噪声较重，后续写作审计前建议本地化到 `raw/assets/P0023/` 并优先核对原 PDF。
+- 完成 P0017-P0023 mini-synthesis：创建 `wiki/synthesis/mini-synthesis-P0017-P0023.md`。
+- Mini-synthesis 仅读取 paper cards、concepts、comparison、field、gaps、index 和 log；未回读 P0017-P0023 raw 全文。
+- 更新 `wiki/field/field-map.md`、`wiki/field/shared-assumptions.md`、`wiki/gaps/confirmed-gaps.md`、`wiki/gaps/open-questions.md` 和 `index.md`；confirmed gaps 维持 GAP-0001 至 GAP-0004，新增 OQ-0021 至 OQ-0027，未新增 confirmed gap。
+- Candidate idea 仅保留线索，包括 prediction-uncertainty-aware fallback、Lane-2-assistance with realistic lateral execution、multi-objective evaluation minimal set、VTS-DRL proposal + safety-critical execution、FD-driven gap plan + vehicle-level safety filter、timing-aware merging sequence 和 controllability-aware sequence pruning；未创建正式 HYP。
+- 结束 Batch 04 初始化导入：创建 `wiki/synthesis/batch-04-summary.md`，范围为 P0017-P0023。
+- Batch 04 summary 仅读取已编译的 paper cards、concepts、field、gaps、comparison、index 和 log；未回读 P0017-P0023 raw 原文。
+- 同步更新 `wiki/field/field-map.md`、`wiki/field/shared-assumptions.md`、`wiki/gaps/confirmed-gaps.md`、`wiki/gaps/open-questions.md` 和 `index.md`；confirmed gaps 维持 GAP-0001 至 GAP-0004；OQ-0021 至 OQ-0027 维持 open；candidate idea 仅保留线索；未创建正式 HYP。
+- Source-quality cleanup：用户手动完成 raw 文件名规范化、删除重复/低质量 paper raw 与 paper card；本次同步修复 wiki 编译层。
+- 更新 P0019/P0020/P0021 paper cards 的 `source_path` 与原文锚点，使其匹配当前 `raw/papers/` 文件名。
+- 删除仅由已抛弃低质量源支撑的 `wiki/concepts/bilevel-dp-mixed-traffic-merging.md`。
+- 新建 `wiki/synthesis/mini-synthesis-P0017-P0022.md` 并删除旧 `wiki/synthesis/mini-synthesis-P0017-P0023.md`；更新 `wiki/synthesis/batch-04-summary.md` 的有效范围为 P0017-P0022。
+- 清理 `wiki/field/field-map.md`、`wiki/field/shared-assumptions.md`、`wiki/gaps/confirmed-gaps.md`、`wiki/gaps/open-questions.md` 和 `wiki/comparisons/merging-control-baselines.md` 中的失效主引用、重复计数和对应 candidate 线索。
+- 更新 `wiki/concepts/consensus-based-mixed-traffic-merging.md`、P0014/P0015 paper cards、Batch 03 synthesis 中的重复源残留引用。
+- 更新 `index.md` 当前关键页面与状态计数：Paper cards 21，Concepts 21，Synthesis 9。
+- 更新 `wiki/synthesis/source-quality-audit-2026-04-29.md` 为 cleanup-applied 状态；未创建 HYP、EXP brief、EXP report 或 DEC。
+- 更新 `research-agenda.md`：标记 source-quality cleanup 已完成，当前有效语料为 21 篇；下一阶段暂停继续 ingest，优先执行 concept consolidation audit 与 mid-field synthesis P001-P0022。
+- Concept consolidation audit：创建 `wiki/synthesis/concept-consolidation-audit-2026-04-29.md`，读取 schema、purpose、agenda、index、全部 `wiki/concepts/`、field-map、baseline comparison、Batch 01-04 summary 和 source-quality audit。
+- 本次审计将 21 个 concepts 分为 core cross-paper concept、merge candidate、paper-specific mechanism 三类；为每个 merge candidate 给出建议合并目标，并说明后续对 field-map、comparisons 和 open-questions 的影响。
+- 本次仅生成审计建议并更新 `index.md`；未删除、合并、移动或改写任何 concept 文件，未创建正式 HYP、EXP brief、EXP report 或 DEC。
+- Mid-field synthesis：创建 `wiki/synthesis/mid-field-synthesis-P001-P0022.md`，读取 schema、purpose、agenda、index、source-quality audit、concept consolidation audit、Batch 01-04 summary、field-map、shared assumptions、confirmed gaps、open questions、baseline comparison 和全部 concepts。
+- 本次 synthesis 基于当前有效编译层材料，不默认回读 raw 原文；未发现需要因证据冲突、metadata 异常或 citation audit 立即回 raw 的触发点。
+- 本次 synthesis 输出 P001-P0022 方法谱系总图、真实推进关系、共同假设脆弱点、confirmed gaps 复核、open questions 收敛、candidate idea 线索分组和下一步建议；建议优先做 baseline / benchmark design，再生成 idea-candidates，暂缓继续 P0024-P0030 大规模 ingest。
+- 更新 `index.md` 当前关键页面与状态计数：Synthesis 11；未创建正式 HYP、EXP brief、EXP report 或 DEC。
+- Concept consolidation plan：创建 `wiki/synthesis/concept-consolidation-plan-2026-04-29.md`，基于 `wiki/synthesis/concept-consolidation-audit-2026-04-29.md` 制定 10 个 merge candidates 的执行清单。
+- 本计划逐项记录当前 concept 文件、目标 concept 文件、合并理由、需迁移核心内容、需更新引用页面和建议处理方式，并特别检查 `index.md`、`wiki/field/field-map.md`、`wiki/comparisons/merging-control-baselines.md`、`wiki/gaps/open-questions.md`。
+- 本计划给出第一批最小安全执行范围：DCoMA -> flow-level CoMC、HCA timing -> sequencing/gap/timing、integrated MINLP -> sequencing/gap/timing、VTS-DRL -> sequencing/gap/timing；本次未修改、删除、移动或归档任何 concept 文件。
+- 更新 `index.md` 当前关键页面与状态计数：Synthesis 12；未创建正式 HYP、EXP brief、EXP report 或 DEC。
+- 减法型 concept consolidation：删除刚才新增的 `wiki/synthesis/concept-consolidation-plan-2026-04-29.md`，不再保留该中间计划文档；未新增 audit、summary、synthesis 或 plan 文件。
+- 删除 3 个 paper-specific concept 文件：`wiki/concepts/transformer-adaptive-mixed-vehicle-merging-control.md`、`wiki/concepts/covariance-adaptive-dynamic-obstacle-planning.md`、`wiki/concepts/hcmcc-multilane-mixed-traffic-control.md`。
+- 信息迁移位置：P008 BDM-AWM 机制保留在 `wiki/papers/P008-2025-Zhang-Cooperative-Control-Mixed-Vehicles.md` 与 `wiki/comparisons/merging-control-baselines.md`；P0017 covariance / fallback 外部机制保留在 `wiki/papers/P0017-2024-Lu-Fast-and-Adaptive-Perception-and-Planning.md` 与 `wiki/gaps/open-questions.md`；P0018 HCMCC 机制保留在 `wiki/papers/P0018-2025-Liu-Hierarchical-Cooperative-Constrained-Control.md`、`wiki/field/field-map.md`、`wiki/comparisons/merging-control-baselines.md` 与 `wiki/gaps/open-questions.md`。
+- 同步更新 `index.md`、相关 paper cards、`wiki/synthesis/batch-02-summary.md`、`wiki/synthesis/mini-synthesis-P006-P0010.md`、`wiki/synthesis/concept-consolidation-audit-2026-04-29.md` 以及仍保留的相关 concept links；当前 Concepts 18，Synthesis 11。
+- 本次未创建正式 HYP、EXP brief、EXP report 或 DEC。
+- 第二批减法型 concept consolidation：删除 3 个 paper-specific concept 文件：`wiki/concepts/multi-area-dual-lane-ramp-control.md`、`wiki/concepts/strategic-cav-influence-on-hdv-merging.md`、`wiki/concepts/hcomc-two-lane-mixed-traffic-control.md`。
+- 将 P004、P0010、P0016 相关 concept 引用改回对应 paper cards、`wiki/comparisons/merging-control-baselines.md` 或 `wiki/gaps/open-questions.md`；同步更新 batch summaries、paper cards、concept consolidation audit 和 `index.md`。
+- 当前 Concepts 15，Synthesis 11；本次未新增 audit / synthesis / plan 文件，未创建正式 HYP、EXP brief、EXP report 或 DEC。
+- 删除 8 个已被 `wiki/synthesis/mid-field-synthesis-P001-P0022.md` 吸收的中间 synthesis 文件：`mini-synthesis-P001-P005.md`、`mini-synthesis-P006-P0010.md`、`mini-synthesis-P0011-P0016.md`、`mini-synthesis-P0017-P0022.md`、`batch-01-summary.md`、`batch-02-summary.md`、`batch-03-summary.md`、`batch-04-summary.md`。
+- 更新 `index.md`、`research-agenda.md`、`wiki/synthesis/concept-consolidation-audit-2026-04-29.md` 和 `wiki/synthesis/mid-field-synthesis-P001-P0022.md`，将当前接力入口收敛到 mid-field synthesis；当前 Synthesis 3。
+
+## 2026-05-03
+
+- 完成 Codex-native legacy cleanup：更新 `index.md` 和 `research-agenda.md`，使普通 Codex 启动入口收敛到 `AGENTS.md`；`.wiki-schema.md` 保留为 legacy/reference，未删除、未归档；未读取 `raw/`；未创建 HYP、EXP brief、EXP report 或 DEC。

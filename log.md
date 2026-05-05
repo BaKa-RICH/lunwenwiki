@@ -179,3 +179,7 @@ append_only: true
 
 - 完成 Codex-native legacy cleanup：更新 `index.md` 和 `research-agenda.md`，使普通 Codex 启动入口收敛到 `AGENTS.md`；`.wiki-schema.md` 保留为 legacy/reference，未删除、未归档；未读取 `raw/`；未创建 HYP、EXP brief、EXP report 或 DEC。
 - 完成 P0/P1 research-wiki 闭环工具层初始化：新增 `skills/research-wiki/`、`skills/research-argumentation/`、`schema/`、`scripts/` 和 `workspace/` 运行时输出约定；轻度更新 `AGENTS.md` 与 `index.md`，明确 skill/schema/scripts/workspace 的边界；未修改 `raw/`，未创建 HYP、EXP brief、EXP report 或 DEC。
+
+## 2026-05-05
+
+- 新增 V1 light orchestration guidance：在 `skills/research-wiki/` 中为 query、调研检索和 synthesis-lite 增加主 agent / helper subagent 轻编排说明；主 agent 负责 routing、governance 和 final answer，helper subagent 只读并只产出 draft；`raw/` 默认不开放，helper subagent 不直接写 durable wiki；未新增脚本、schema、lint、自动调度器，未创建 HYP、EXP brief、EXP report 或 DEC。

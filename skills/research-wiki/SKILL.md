@@ -14,6 +14,7 @@ the workflows without expanding `AGENTS.md` into a long operations manual.
 | User intent | Read |
 | --- | --- |
 | Ask questions from the compiled wiki | `references/workflows-query.md` |
+| Reduce main-agent context load during query or synthesis | `references/light-orchestration.md` |
 | Ingest or update a paper memory card | `references/workflows-ingest.md` |
 | Create or update field/concept/gap synthesis | `references/workflows-synthesis.md` |
 | Generate candidates or promote a candidate to HYP | `references/workflows-idea-hypothesis.md` |
@@ -21,6 +22,20 @@ the workflows without expanding `AGENTS.md` into a long operations manual.
 | Run status, lint, or rebuild machine indexes | `references/workflows-maintenance.md` |
 | Check object schema and lifecycle rules | `references/schema.md` |
 | Format user-facing output | `references/output-formats.md` |
+
+## Light Orchestration (V1)
+
+Use `references/light-orchestration.md` when query, research lookup, or
+synthesis-lite work would otherwise make the main agent read a broad set of
+wiki pages. The main agent still owns routing, source-set construction,
+evidence and lifecycle boundaries, and the final answer. Helper subagents are
+read-only draft producers: they may scout candidate sources or compress a
+small assigned source set, but they do not write durable wiki pages.
+
+Prefer `index.md` and `workspace/manifests/` before deeper page reads.
+`raw/` access stays closed by default and is opened only for the trigger cases
+listed in the light orchestration reference. Keep the final context centered
+on source shortlists and evidence-aware summary packets, not copied page text.
 
 ## Hard Boundaries
 
